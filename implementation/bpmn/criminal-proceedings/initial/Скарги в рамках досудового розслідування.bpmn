@@ -1,0 +1,951 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bpmn:definitions xmlns:bpmn='http://www.omg.org/spec/BPMN/20100524/MODEL' xmlns:bpmndi='http://www.omg.org/spec/BPMN/20100524/DI' xmlns:dc='http://www.omg.org/spec/DD/20100524/DC' xmlns:di='http://www.omg.org/spec/DD/20100524/DI' targetNamespace='http://bpmn.io/schema/bpmn' id='Definitions_1775264169'>
+  <bpmn:process id='Process_1' isExecutable='false'>
+    <bpmn:laneSet id='LaneSet_1'>
+      <bpmn:lane id='vAyut_De6IwCnGqPx89W-19' name='Cуд'>
+        <bpmn:flowNodeRef>rgK1mn1ULD_qLHTTGgeq-22</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>rgK1mn1ULD_qLHTTGgeq-23</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>rgK1mn1ULD_qLHTTGgeq-24</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ozdrXW37CMP4rJSeyBz9-172</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ozdrXW37CMP4rJSeyBz9-176</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-8</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-9</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-34</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-19</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-24</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-35</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>rWoODeaYEMIMVaM6c_ST-88</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id='vAyut_De6IwCnGqPx89W-20' name='Апарат суду'>
+        <bpmn:flowNodeRef>rgK1mn1ULD_qLHTTGgeq-22</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>rgK1mn1ULD_qLHTTGgeq-23</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>rgK1mn1ULD_qLHTTGgeq-24</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ozdrXW37CMP4rJSeyBz9-172</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ozdrXW37CMP4rJSeyBz9-176</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-8</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-9</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-34</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-19</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-24</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-35</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-2</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id='vAyut_De6IwCnGqPx89W-25' name='Патронатна служба (помічники, секретарі)'>
+        <bpmn:flowNodeRef>rWoODeaYEMIMVaM6c_ST-88</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id='vAyut_De6IwCnGqPx89W-84' name='Слідчий / дізнавач / прокурор'/>
+      <bpmn:lane id='vAyut_De6IwCnGqPx89W-26' name='Слідчі судді'>
+        <bpmn:flowNodeRef>aQHQN-tHY9-mEqw4obvo-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ozdrXW37CMP4rJSeyBz9-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ozdrXW37CMP4rJSeyBz9-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ozdrXW37CMP4rJSeyBz9-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ozdrXW37CMP4rJSeyBz9-4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ozdrXW37CMP4rJSeyBz9-5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ozdrXW37CMP4rJSeyBz9-7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ozdrXW37CMP4rJSeyBz9-9</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ozdrXW37CMP4rJSeyBz9-14</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>xPnzwD7OP5odCyVlyhQA-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>xPnzwD7OP5odCyVlyhQA-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>xPnzwD7OP5odCyVlyhQA-6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>JEwmcwG--m9Bxu1wyrqH-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>JEwmcwG--m9Bxu1wyrqH-7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>JEwmcwG--m9Bxu1wyrqH-8</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>JEwmcwG--m9Bxu1wyrqH-9</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>JEwmcwG--m9Bxu1wyrqH-10</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>JEwmcwG--m9Bxu1wyrqH-18</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-9</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-14</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-20</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-22</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-23</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-31</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-32</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-34</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-35</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-37</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-38</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-39</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-43</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-45</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-47</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-49</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-54</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-56</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-57</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-64</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-66</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-67</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-74</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-79</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WGzZ9-zR53CRMDJ7xSg_-81</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id='rgK1mn1ULD_qLHTTGgeq-17' name='Особа, яка подала скаргу / треті особи'/>
+      <bpmn:lane id='WGzZ9-zR53CRMDJ7xSg_-1' name='Інший суд'/>
+    </bpmn:laneSet>
+    <bpmn:manualTask id='rgK1mn1ULD_qLHTTGgeq-22' name='Повідомити/надіслати документ особі, яка подала скаргу, третім особам'>
+      <bpmn:incoming>rgK1mn1ULD_qLHTTGgeq-66</bpmn:incoming>
+      <bpmn:outgoing>rgK1mn1ULD_qLHTTGgeq-69</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:exclusiveGateway id='rgK1mn1ULD_qLHTTGgeq-23' name='exclusiveGateway'>
+      <bpmn:outgoing>rgK1mn1ULD_qLHTTGgeq-66</bpmn:outgoing>
+      <bpmn:outgoing>rgK1mn1ULD_qLHTTGgeq-67</bpmn:outgoing>
+      <bpmn:incoming>rWoODeaYEMIMVaM6c_ST-87</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:intermediateThrowEvent id='rgK1mn1ULD_qLHTTGgeq-24' name='intermediateThrowEvent'>
+      <bpmn:incoming>rgK1mn1ULD_qLHTTGgeq-63</bpmn:incoming>
+      <bpmn:outgoing>rgK1mn1ULD_qLHTTGgeq-63</bpmn:outgoing>
+      <bpmn:incoming>rgK1mn1ULD_qLHTTGgeq-69</bpmn:incoming>
+    </bpmn:intermediateThrowEvent>
+    <bpmn:manualTask id='ozdrXW37CMP4rJSeyBz9-172' name='Повідомити/надіслати документ слідчому/дізнавачу/прокурору (у разі задоволення скарги)'>
+      <bpmn:incoming>rgK1mn1ULD_qLHTTGgeq-67</bpmn:incoming>
+      <bpmn:outgoing>rgK1mn1ULD_qLHTTGgeq-68</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:endEvent id='ozdrXW37CMP4rJSeyBz9-176' name='intermediateThrowEvent'>
+      <bpmn:incoming>rgK1mn1ULD_qLHTTGgeq-68</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:manualTask id='aQHQN-tHY9-mEqw4obvo-1' name='Фіксація судового засідання'>
+      <bpmn:incoming>aQHQN-tHY9-mEqw4obvo-5</bpmn:incoming>
+      <bpmn:outgoing>syn_flow_isplit_1</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:endEvent id='aQHQN-tHY9-mEqw4obvo-8' name='intermediateThrowEvent'>
+      <bpmn:incoming>aQHQN-tHY9-mEqw4obvo-10</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:endEvent id='aQHQN-tHY9-mEqw4obvo-9' name='intermediateThrowEvent'>
+      <bpmn:incoming>aQHQN-tHY9-mEqw4obvo-12</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:manualTask id='aQHQN-tHY9-mEqw4obvo-34' name='Офлайн (явка учасників справи/представників безпосередньо в приміщення суду, який розглядає справу) або Онлайн (власні технічні засоби учасника процесу)'>
+      <bpmn:outgoing>aQHQN-tHY9-mEqw4obvo-32</bpmn:outgoing>
+      <bpmn:incoming>aQHQN-tHY9-mEqw4obvo-17</bpmn:incoming>
+    </bpmn:manualTask>
+    <bpmn:manualTask id='aQHQN-tHY9-mEqw4obvo-19' name='Засобами ВКЗ'>
+      <bpmn:incoming>aQHQN-tHY9-mEqw4obvo-32</bpmn:incoming>
+      <bpmn:outgoing>aQHQN-tHY9-mEqw4obvo-29</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:manualTask id='aQHQN-tHY9-mEqw4obvo-24' name='Власними тех засобами суду'>
+      <bpmn:outgoing>aQHQN-tHY9-mEqw4obvo-36</bpmn:outgoing>
+      <bpmn:incoming>aQHQN-tHY9-mEqw4obvo-30</bpmn:incoming>
+    </bpmn:manualTask>
+    <bpmn:exclusiveGateway id='aQHQN-tHY9-mEqw4obvo-35' name='exclusiveGateway'>
+      <bpmn:incoming>aQHQN-tHY9-mEqw4obvo-36</bpmn:incoming>
+      <bpmn:incoming>aQHQN-tHY9-mEqw4obvo-29</bpmn:incoming>
+      <bpmn:outgoing>aQHQN-tHY9-mEqw4obvo-37</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id='WGzZ9-zR53CRMDJ7xSg_-2' name='Оформити справу та передати її за підсудністю'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-12</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:textAnnotation id='WGzZ9-zR53CRMDJ7xSg_-3'>
+      <bpmn:text>intermediateThrowEvent</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:userTask id='rWoODeaYEMIMVaM6c_ST-88' name='Підготувати документи, внести їх в ДСС/Д3'>
+      <bpmn:outgoing>rWoODeaYEMIMVaM6c_ST-87</bpmn:outgoing>
+      <bpmn:incoming>rgK1mn1ULD_qLHTTGgeq-147</bpmn:incoming>
+    </bpmn:userTask>
+    <bpmn:dataStoreReference id='rWoODeaYEMIMVaM6c_ST-89'/>
+    <bpmn:startEvent id='aQHQN-tHY9-mEqw4obvo-3' name='Start 2'>
+      <bpmn:messageEventDefinition id='MessageEventDefinition_aQHQN-tHY9-mEqw4obvo-3'/>
+      <bpmn:outgoing>aQHQN-tHY9-mEqw4obvo-5</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:startEvent id='ozdrXW37CMP4rJSeyBz9-1' name='intermediateThrowEvent'>
+      <bpmn:outgoing>tPlSaz22BzCCkuHwG36Z-60</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id='ozdrXW37CMP4rJSeyBz9-2' name='Скарга на бездіяльність про невнесення відомостей до ЄРДР'>
+      <bpmn:incoming>ozdrXW37CMP4rJSeyBz9-15</bpmn:incoming>
+      <bpmn:outgoing>ozdrXW37CMP4rJSeyBz9-18</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id='ozdrXW37CMP4rJSeyBz9-3' name='exclusiveGateway'>
+      <bpmn:incoming>tPlSaz22BzCCkuHwG36Z-60</bpmn:incoming>
+      <bpmn:outgoing>ozdrXW37CMP4rJSeyBz9-15</bpmn:outgoing>
+      <bpmn:outgoing>ozdrXW37CMP4rJSeyBz9-16</bpmn:outgoing>
+      <bpmn:outgoing>ozdrXW37CMP4rJSeyBz9-19</bpmn:outgoing>
+      <bpmn:outgoing>ozdrXW37CMP4rJSeyBz9-20</bpmn:outgoing>
+      <bpmn:outgoing>ozdrXW37CMP4rJSeyBz9-22</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id='ozdrXW37CMP4rJSeyBz9-4' name='Скарга на рішення про зупинення досудового розслідування'>
+      <bpmn:incoming>ozdrXW37CMP4rJSeyBz9-16</bpmn:incoming>
+      <bpmn:outgoing>ozdrXW37CMP4rJSeyBz9-17</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id='ozdrXW37CMP4rJSeyBz9-5' name='Скарга на рішення про закриття кримінального провадження'>
+      <bpmn:incoming>ozdrXW37CMP4rJSeyBz9-19</bpmn:incoming>
+      <bpmn:outgoing>ozdrXW37CMP4rJSeyBz9-27</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id='ozdrXW37CMP4rJSeyBz9-7' name='Скарга на рішення прокурора про закриття кримінального провадженя та/або провадження щодо юридичної особи'>
+      <bpmn:incoming>ozdrXW37CMP4rJSeyBz9-20</bpmn:incoming>
+      <bpmn:outgoing>ozdrXW37CMP4rJSeyBz9-28</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id='ozdrXW37CMP4rJSeyBz9-9' name='Інші скарги визначені главою 26 КПК'>
+      <bpmn:incoming>ozdrXW37CMP4rJSeyBz9-22</bpmn:incoming>
+      <bpmn:outgoing>ozdrXW37CMP4rJSeyBz9-30</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id='ozdrXW37CMP4rJSeyBz9-14' name='exclusiveGateway'>
+      <bpmn:incoming>ozdrXW37CMP4rJSeyBz9-17</bpmn:incoming>
+      <bpmn:incoming>ozdrXW37CMP4rJSeyBz9-18</bpmn:incoming>
+      <bpmn:incoming>ozdrXW37CMP4rJSeyBz9-27</bpmn:incoming>
+      <bpmn:incoming>ozdrXW37CMP4rJSeyBz9-28</bpmn:incoming>
+      <bpmn:incoming>ozdrXW37CMP4rJSeyBz9-30</bpmn:incoming>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-30</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:businessRuleTask id='xPnzwD7OP5odCyVlyhQA-1' name='Здійснити розгляд скарги (за участю особи, яка подала скаргу, слідчого/дізнавача/прокурора)'>
+      <bpmn:outgoing>aQHQN-tHY9-mEqw4obvo-2</bpmn:outgoing>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-28</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='xPnzwD7OP5odCyVlyhQA-2' name='Ухвалити рішення'>
+      <bpmn:outgoing>qnnq0DUpWEbhJxiza9om-5</bpmn:outgoing>
+      <bpmn:incoming>aQHQN-tHY9-mEqw4obvo-2</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='xPnzwD7OP5odCyVlyhQA-6' name='Постановити ухвалу'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-21</bpmn:incoming>
+      <bpmn:outgoing>rgK1mn1ULD_qLHTTGgeq-147</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:exclusiveGateway id='JEwmcwG--m9Bxu1wyrqH-1' name='exclusiveGateway'>
+      <bpmn:outgoing>qnnq0DUpWEbhJxiza9om-16</bpmn:outgoing>
+      <bpmn:incoming>JEwmcwG--m9Bxu1wyrqH-2</bpmn:incoming>
+      <bpmn:incoming>JEwmcwG--m9Bxu1wyrqH-3</bpmn:incoming>
+      <bpmn:incoming>JEwmcwG--m9Bxu1wyrqH-4</bpmn:incoming>
+      <bpmn:incoming>JEwmcwG--m9Bxu1wyrqH-20</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id='JEwmcwG--m9Bxu1wyrqH-7' name='exclusiveGateway'>
+      <bpmn:incoming>qnnq0DUpWEbhJxiza9om-5</bpmn:incoming>
+      <bpmn:outgoing>JEwmcwG--m9Bxu1wyrqH-13</bpmn:outgoing>
+      <bpmn:outgoing>JEwmcwG--m9Bxu1wyrqH-14</bpmn:outgoing>
+      <bpmn:outgoing>JEwmcwG--m9Bxu1wyrqH-15</bpmn:outgoing>
+      <bpmn:outgoing>JEwmcwG--m9Bxu1wyrqH-19</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:businessRuleTask id='JEwmcwG--m9Bxu1wyrqH-8' name='Повернути скаргу'>
+      <bpmn:outgoing>JEwmcwG--m9Bxu1wyrqH-2</bpmn:outgoing>
+      <bpmn:incoming>JEwmcwG--m9Bxu1wyrqH-13</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='JEwmcwG--m9Bxu1wyrqH-9' name='Відмовити у задоволенні скарги повністю або частково'>
+      <bpmn:outgoing>JEwmcwG--m9Bxu1wyrqH-3</bpmn:outgoing>
+      <bpmn:incoming>JEwmcwG--m9Bxu1wyrqH-14</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='JEwmcwG--m9Bxu1wyrqH-10' name='Задовольнити скаргу повністю або частково'>
+      <bpmn:outgoing>JEwmcwG--m9Bxu1wyrqH-4</bpmn:outgoing>
+      <bpmn:incoming>JEwmcwG--m9Bxu1wyrqH-15</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='JEwmcwG--m9Bxu1wyrqH-18' name='Відмовити у відкритті провадження'>
+      <bpmn:incoming>JEwmcwG--m9Bxu1wyrqH-19</bpmn:incoming>
+      <bpmn:outgoing>JEwmcwG--m9Bxu1wyrqH-20</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:userTask id='WGzZ9-zR53CRMDJ7xSg_-6' name='Підготувати документи, внести їх в ДСС/Д3'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-10</bpmn:incoming>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-12</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:dataStoreReference id='WGzZ9-zR53CRMDJ7xSg_-7'/>
+    <bpmn:businessRuleTask id='WGzZ9-zR53CRMDJ7xSg_-9' name='Постановити ухвалу'>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-10</bpmn:outgoing>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-17</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:startEvent id='WGzZ9-zR53CRMDJ7xSg_-14' name='intermediateThrowEvent'>
+      <bpmn:messageEventDefinition id='MessageEventDefinition_WGzZ9-zR53CRMDJ7xSg_-14'/>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-17</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:intermediateThrowEvent id='WGzZ9-zR53CRMDJ7xSg_-20' name='intermediateThrowEvent'>
+      <bpmn:incoming>qnnq0DUpWEbhJxiza9om-16</bpmn:incoming>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-21</bpmn:outgoing>
+    </bpmn:intermediateThrowEvent>
+    <bpmn:businessRuleTask id='WGzZ9-zR53CRMDJ7xSg_-22' name='Перевірка на наявність конфлікту інтересів'>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-25</bpmn:outgoing>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-30</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:exclusiveGateway id='WGzZ9-zR53CRMDJ7xSg_-23' name='exclusiveGateway'>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-85</bpmn:outgoing>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-25</bpmn:incoming>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-28</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:startEvent id='WGzZ9-zR53CRMDJ7xSg_-31' name='Start 5'>
+      <bpmn:messageEventDefinition id='MessageEventDefinition_WGzZ9-zR53CRMDJ7xSg_-31'/>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-84</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:serviceTask id='WGzZ9-zR53CRMDJ7xSg_-32' name='Авторозподіл'>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-44</bpmn:outgoing>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-51</bpmn:incoming>
+    </bpmn:serviceTask>
+    <bpmn:task id='WGzZ9-zR53CRMDJ7xSg_-34' name='Розглянути заяву про відвід/самовідвід поточним складом суду'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-85</bpmn:incoming>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-36</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id='WGzZ9-zR53CRMDJ7xSg_-35' name='exclusiveGateway'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-36</bpmn:incoming>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-40</bpmn:outgoing>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-52</bpmn:outgoing>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-82</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id='WGzZ9-zR53CRMDJ7xSg_-37' name='У разі заявлення відводу слідчому судді або судді, який здійснює судове провадження одноособово'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-40</bpmn:incoming>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-41</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id='WGzZ9-zR53CRMDJ7xSg_-38' name='У разі заявлення відводу одному, кільком або всім суддям, які здійснюють судове провадження колегіально'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-52</bpmn:incoming>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-53</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id='WGzZ9-zR53CRMDJ7xSg_-39' name='Заява не підлягає передачі на розгляд іншому судді, а питання про відвід судді вирішується цим же складом суду, що розглядає справу'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-53</bpmn:incoming>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-73</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id='WGzZ9-zR53CRMDJ7xSg_-43' name='exclusiveGateway'>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-46</bpmn:outgoing>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-60</bpmn:incoming>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-69</bpmn:incoming>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-75</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id='WGzZ9-zR53CRMDJ7xSg_-45' name='intermediateThrowEvent'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-44</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:parallelGateway id='WGzZ9-zR53CRMDJ7xSg_-47' name='parallelGateway'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-46</bpmn:incoming>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-48</bpmn:outgoing>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-51</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:endEvent id='WGzZ9-zR53CRMDJ7xSg_-49' name='intermediateThrowEvent'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-48</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:task id='WGzZ9-zR53CRMDJ7xSg_-54' name='Якщо після задоволення відводів (самовідводів) неможливо утворити новий склад суду, то вирішується питання про передання кримінального провадження до іншого суду в порядку, передбаченому КПК'>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-55</bpmn:outgoing>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-84</bpmn:incoming>
+    </bpmn:task>
+    <bpmn:endEvent id='WGzZ9-zR53CRMDJ7xSg_-56' name='intermediateThrowEvent'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-55</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:task id='WGzZ9-zR53CRMDJ7xSg_-57' name='Направити справу на авторозподіл для визначенння іншого судді в суді, в якому розглядається справа'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-41</bpmn:incoming>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-42</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:textAnnotation id='WGzZ9-zR53CRMDJ7xSg_-59'>
+      <bpmn:text>
+        Див. БП &quot;Судовий контроль під час досудового розслідування (подання
+        стороною клопотання/скарги) &quot;
+      </bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:exclusiveGateway id='WGzZ9-zR53CRMDJ7xSg_-64' name='exclusiveGateway'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-42</bpmn:incoming>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-60</bpmn:outgoing>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-62</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id='WGzZ9-zR53CRMDJ7xSg_-66' name='intermediateThrowEvent'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-62</bpmn:incoming>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-71</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:exclusiveGateway id='WGzZ9-zR53CRMDJ7xSg_-67' name='exclusiveGateway'>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-69</bpmn:outgoing>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-71</bpmn:outgoing>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-73</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id='WGzZ9-zR53CRMDJ7xSg_-74' name='Вирішити питання самовідводу'>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-80</bpmn:outgoing>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-82</bpmn:incoming>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id='WGzZ9-zR53CRMDJ7xSg_-79' name='exclusiveGateway'>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-75</bpmn:outgoing>
+      <bpmn:outgoing>WGzZ9-zR53CRMDJ7xSg_-77</bpmn:outgoing>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-80</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id='WGzZ9-zR53CRMDJ7xSg_-81' name='intermediateThrowEvent'>
+      <bpmn:incoming>WGzZ9-zR53CRMDJ7xSg_-77</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:startEvent id='aQHQN-tHY9-mEqw4obvo-15' name='Ведення протоколу судового засідання'>
+      <bpmn:messageEventDefinition id='MessageEventDefinition_aQHQN-tHY9-mEqw4obvo-15'/>
+      <bpmn:outgoing>syn_flow_isplit_2</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:manualTask id='aQHQN-tHY9-mEqw4obvo-16' name='Онлайн (ВКЗ)'>
+      <bpmn:incoming>aQHQN-tHY9-mEqw4obvo-18</bpmn:incoming>
+      <bpmn:outgoing>aQHQN-tHY9-mEqw4obvo-30</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:textAnnotation id='aQHQN-tHY9-mEqw4obvo-20'>
+      <bpmn:text>intermediateThrowEvent</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:endEvent id='aQHQN-tHY9-mEqw4obvo-26' name='intermediateThrowEvent'>
+      <bpmn:incoming>aQHQN-tHY9-mEqw4obvo-37</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:exclusiveGateway id='syn_isplit_1_aQHQN-tHY9-mEqw4obvo-1'>
+      <bpmn:outgoing>aQHQN-tHY9-mEqw4obvo-10</bpmn:outgoing>
+      <bpmn:outgoing>aQHQN-tHY9-mEqw4obvo-12</bpmn:outgoing>
+      <bpmn:incoming>syn_flow_isplit_1</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id='syn_isplit_2_aQHQN-tHY9-mEqw4obvo-15'>
+      <bpmn:outgoing>aQHQN-tHY9-mEqw4obvo-17</bpmn:outgoing>
+      <bpmn:outgoing>aQHQN-tHY9-mEqw4obvo-18</bpmn:outgoing>
+      <bpmn:incoming>syn_flow_isplit_2</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id='rgK1mn1ULD_qLHTTGgeq-63' sourceRef='rgK1mn1ULD_qLHTTGgeq-24' targetRef='rgK1mn1ULD_qLHTTGgeq-24'/>
+    <bpmn:sequenceFlow id='rgK1mn1ULD_qLHTTGgeq-66' sourceRef='rgK1mn1ULD_qLHTTGgeq-23' targetRef='rgK1mn1ULD_qLHTTGgeq-22'/>
+    <bpmn:sequenceFlow id='rgK1mn1ULD_qLHTTGgeq-67' sourceRef='rgK1mn1ULD_qLHTTGgeq-23' targetRef='ozdrXW37CMP4rJSeyBz9-172'/>
+    <bpmn:sequenceFlow id='rgK1mn1ULD_qLHTTGgeq-68' sourceRef='ozdrXW37CMP4rJSeyBz9-172' targetRef='ozdrXW37CMP4rJSeyBz9-176'/>
+    <bpmn:sequenceFlow id='rgK1mn1ULD_qLHTTGgeq-69' sourceRef='rgK1mn1ULD_qLHTTGgeq-22' targetRef='rgK1mn1ULD_qLHTTGgeq-24'/>
+    <bpmn:sequenceFlow id='aQHQN-tHY9-mEqw4obvo-10' sourceRef='syn_isplit_1_aQHQN-tHY9-mEqw4obvo-1' targetRef='aQHQN-tHY9-mEqw4obvo-8'/>
+    <bpmn:sequenceFlow id='aQHQN-tHY9-mEqw4obvo-12' sourceRef='syn_isplit_1_aQHQN-tHY9-mEqw4obvo-1' targetRef='aQHQN-tHY9-mEqw4obvo-9'/>
+    <bpmn:sequenceFlow id='aQHQN-tHY9-mEqw4obvo-32' sourceRef='aQHQN-tHY9-mEqw4obvo-34' targetRef='aQHQN-tHY9-mEqw4obvo-19'/>
+    <bpmn:sequenceFlow id='aQHQN-tHY9-mEqw4obvo-36' sourceRef='aQHQN-tHY9-mEqw4obvo-24' targetRef='aQHQN-tHY9-mEqw4obvo-35'/>
+    <bpmn:sequenceFlow id='aQHQN-tHY9-mEqw4obvo-29' sourceRef='aQHQN-tHY9-mEqw4obvo-19' targetRef='aQHQN-tHY9-mEqw4obvo-35'/>
+    <bpmn:sequenceFlow id='rWoODeaYEMIMVaM6c_ST-87' sourceRef='rWoODeaYEMIMVaM6c_ST-88' targetRef='rgK1mn1ULD_qLHTTGgeq-23'/>
+    <bpmn:association id='rWoODeaYEMIMVaM6c_ST-90' sourceRef='rWoODeaYEMIMVaM6c_ST-88' targetRef='rWoODeaYEMIMVaM6c_ST-89'/>
+    <bpmn:sequenceFlow id='tPlSaz22BzCCkuHwG36Z-60' sourceRef='ozdrXW37CMP4rJSeyBz9-1' targetRef='ozdrXW37CMP4rJSeyBz9-3'/>
+    <bpmn:sequenceFlow id='ozdrXW37CMP4rJSeyBz9-15' sourceRef='ozdrXW37CMP4rJSeyBz9-3' targetRef='ozdrXW37CMP4rJSeyBz9-2'/>
+    <bpmn:sequenceFlow id='ozdrXW37CMP4rJSeyBz9-16' sourceRef='ozdrXW37CMP4rJSeyBz9-3' targetRef='ozdrXW37CMP4rJSeyBz9-4'/>
+    <bpmn:sequenceFlow id='ozdrXW37CMP4rJSeyBz9-17' sourceRef='ozdrXW37CMP4rJSeyBz9-4' targetRef='ozdrXW37CMP4rJSeyBz9-14'/>
+    <bpmn:sequenceFlow id='ozdrXW37CMP4rJSeyBz9-18' sourceRef='ozdrXW37CMP4rJSeyBz9-2' targetRef='ozdrXW37CMP4rJSeyBz9-14'/>
+    <bpmn:sequenceFlow id='ozdrXW37CMP4rJSeyBz9-19' sourceRef='ozdrXW37CMP4rJSeyBz9-3' targetRef='ozdrXW37CMP4rJSeyBz9-5'/>
+    <bpmn:sequenceFlow id='ozdrXW37CMP4rJSeyBz9-20' sourceRef='ozdrXW37CMP4rJSeyBz9-3' targetRef='ozdrXW37CMP4rJSeyBz9-7'/>
+    <bpmn:sequenceFlow id='ozdrXW37CMP4rJSeyBz9-22' sourceRef='ozdrXW37CMP4rJSeyBz9-3' targetRef='ozdrXW37CMP4rJSeyBz9-9'/>
+    <bpmn:sequenceFlow id='ozdrXW37CMP4rJSeyBz9-27' sourceRef='ozdrXW37CMP4rJSeyBz9-5' targetRef='ozdrXW37CMP4rJSeyBz9-14'/>
+    <bpmn:sequenceFlow id='ozdrXW37CMP4rJSeyBz9-28' sourceRef='ozdrXW37CMP4rJSeyBz9-7' targetRef='ozdrXW37CMP4rJSeyBz9-14'/>
+    <bpmn:sequenceFlow id='ozdrXW37CMP4rJSeyBz9-30' sourceRef='ozdrXW37CMP4rJSeyBz9-9' targetRef='ozdrXW37CMP4rJSeyBz9-14'/>
+    <bpmn:sequenceFlow id='qnnq0DUpWEbhJxiza9om-5' sourceRef='xPnzwD7OP5odCyVlyhQA-2' targetRef='JEwmcwG--m9Bxu1wyrqH-7'/>
+    <bpmn:sequenceFlow id='qnnq0DUpWEbhJxiza9om-16' sourceRef='JEwmcwG--m9Bxu1wyrqH-1' targetRef='WGzZ9-zR53CRMDJ7xSg_-20'/>
+    <bpmn:sequenceFlow id='aQHQN-tHY9-mEqw4obvo-2' sourceRef='xPnzwD7OP5odCyVlyhQA-1' targetRef='xPnzwD7OP5odCyVlyhQA-2'/>
+    <bpmn:sequenceFlow id='JEwmcwG--m9Bxu1wyrqH-2' sourceRef='JEwmcwG--m9Bxu1wyrqH-8' targetRef='JEwmcwG--m9Bxu1wyrqH-1'/>
+    <bpmn:sequenceFlow id='JEwmcwG--m9Bxu1wyrqH-3' sourceRef='JEwmcwG--m9Bxu1wyrqH-9' targetRef='JEwmcwG--m9Bxu1wyrqH-1'/>
+    <bpmn:sequenceFlow id='JEwmcwG--m9Bxu1wyrqH-4' sourceRef='JEwmcwG--m9Bxu1wyrqH-10' targetRef='JEwmcwG--m9Bxu1wyrqH-1'/>
+    <bpmn:sequenceFlow id='JEwmcwG--m9Bxu1wyrqH-13' sourceRef='JEwmcwG--m9Bxu1wyrqH-7' targetRef='JEwmcwG--m9Bxu1wyrqH-8'/>
+    <bpmn:sequenceFlow id='JEwmcwG--m9Bxu1wyrqH-14' sourceRef='JEwmcwG--m9Bxu1wyrqH-7' targetRef='JEwmcwG--m9Bxu1wyrqH-9'/>
+    <bpmn:sequenceFlow id='JEwmcwG--m9Bxu1wyrqH-15' sourceRef='JEwmcwG--m9Bxu1wyrqH-7' targetRef='JEwmcwG--m9Bxu1wyrqH-10'/>
+    <bpmn:sequenceFlow id='JEwmcwG--m9Bxu1wyrqH-19' sourceRef='JEwmcwG--m9Bxu1wyrqH-7' targetRef='JEwmcwG--m9Bxu1wyrqH-18'/>
+    <bpmn:sequenceFlow id='JEwmcwG--m9Bxu1wyrqH-20' sourceRef='JEwmcwG--m9Bxu1wyrqH-18' targetRef='JEwmcwG--m9Bxu1wyrqH-1'/>
+    <bpmn:association id='WGzZ9-zR53CRMDJ7xSg_-8' sourceRef='WGzZ9-zR53CRMDJ7xSg_-6' targetRef='WGzZ9-zR53CRMDJ7xSg_-7'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-10' sourceRef='WGzZ9-zR53CRMDJ7xSg_-9' targetRef='WGzZ9-zR53CRMDJ7xSg_-6'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-17' sourceRef='WGzZ9-zR53CRMDJ7xSg_-14' targetRef='WGzZ9-zR53CRMDJ7xSg_-9'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-21' sourceRef='WGzZ9-zR53CRMDJ7xSg_-20' targetRef='xPnzwD7OP5odCyVlyhQA-6'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-85' sourceRef='WGzZ9-zR53CRMDJ7xSg_-23' targetRef='WGzZ9-zR53CRMDJ7xSg_-34'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-25' sourceRef='WGzZ9-zR53CRMDJ7xSg_-22' targetRef='WGzZ9-zR53CRMDJ7xSg_-23'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-28' sourceRef='WGzZ9-zR53CRMDJ7xSg_-23' targetRef='xPnzwD7OP5odCyVlyhQA-1'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-30' sourceRef='ozdrXW37CMP4rJSeyBz9-14' targetRef='WGzZ9-zR53CRMDJ7xSg_-22'/>
+    <bpmn:association id='WGzZ9-zR53CRMDJ7xSg_-33' sourceRef='WGzZ9-zR53CRMDJ7xSg_-32' targetRef='WGzZ9-zR53CRMDJ7xSg_-59'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-36' sourceRef='WGzZ9-zR53CRMDJ7xSg_-34' targetRef='WGzZ9-zR53CRMDJ7xSg_-35'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-40' sourceRef='WGzZ9-zR53CRMDJ7xSg_-35' targetRef='WGzZ9-zR53CRMDJ7xSg_-37'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-41' sourceRef='WGzZ9-zR53CRMDJ7xSg_-37' targetRef='WGzZ9-zR53CRMDJ7xSg_-57'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-42' sourceRef='WGzZ9-zR53CRMDJ7xSg_-57' targetRef='WGzZ9-zR53CRMDJ7xSg_-64'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-44' sourceRef='WGzZ9-zR53CRMDJ7xSg_-32' targetRef='WGzZ9-zR53CRMDJ7xSg_-45'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-46' sourceRef='WGzZ9-zR53CRMDJ7xSg_-43' targetRef='WGzZ9-zR53CRMDJ7xSg_-47'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-48' sourceRef='WGzZ9-zR53CRMDJ7xSg_-47' targetRef='WGzZ9-zR53CRMDJ7xSg_-49'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-51' sourceRef='WGzZ9-zR53CRMDJ7xSg_-47' targetRef='WGzZ9-zR53CRMDJ7xSg_-32'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-52' sourceRef='WGzZ9-zR53CRMDJ7xSg_-35' targetRef='WGzZ9-zR53CRMDJ7xSg_-38'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-53' sourceRef='WGzZ9-zR53CRMDJ7xSg_-38' targetRef='WGzZ9-zR53CRMDJ7xSg_-39'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-55' sourceRef='WGzZ9-zR53CRMDJ7xSg_-54' targetRef='WGzZ9-zR53CRMDJ7xSg_-56'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-60' sourceRef='WGzZ9-zR53CRMDJ7xSg_-64' targetRef='WGzZ9-zR53CRMDJ7xSg_-43'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-62' sourceRef='WGzZ9-zR53CRMDJ7xSg_-64' targetRef='WGzZ9-zR53CRMDJ7xSg_-66'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-69' sourceRef='WGzZ9-zR53CRMDJ7xSg_-67' targetRef='WGzZ9-zR53CRMDJ7xSg_-43'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-71' sourceRef='WGzZ9-zR53CRMDJ7xSg_-67' targetRef='WGzZ9-zR53CRMDJ7xSg_-66'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-73' sourceRef='WGzZ9-zR53CRMDJ7xSg_-39' targetRef='WGzZ9-zR53CRMDJ7xSg_-67'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-75' sourceRef='WGzZ9-zR53CRMDJ7xSg_-79' targetRef='WGzZ9-zR53CRMDJ7xSg_-43'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-77' sourceRef='WGzZ9-zR53CRMDJ7xSg_-79' targetRef='WGzZ9-zR53CRMDJ7xSg_-81'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-80' sourceRef='WGzZ9-zR53CRMDJ7xSg_-74' targetRef='WGzZ9-zR53CRMDJ7xSg_-79'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-82' sourceRef='WGzZ9-zR53CRMDJ7xSg_-35' targetRef='WGzZ9-zR53CRMDJ7xSg_-74'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-84' sourceRef='WGzZ9-zR53CRMDJ7xSg_-31' targetRef='WGzZ9-zR53CRMDJ7xSg_-54'/>
+    <bpmn:sequenceFlow id='rgK1mn1ULD_qLHTTGgeq-147' sourceRef='xPnzwD7OP5odCyVlyhQA-6' targetRef='rWoODeaYEMIMVaM6c_ST-88'/>
+    <bpmn:sequenceFlow id='aQHQN-tHY9-mEqw4obvo-5' sourceRef='aQHQN-tHY9-mEqw4obvo-3' targetRef='aQHQN-tHY9-mEqw4obvo-1'/>
+    <bpmn:sequenceFlow id='aQHQN-tHY9-mEqw4obvo-17' sourceRef='syn_isplit_2_aQHQN-tHY9-mEqw4obvo-15' targetRef='aQHQN-tHY9-mEqw4obvo-34'/>
+    <bpmn:sequenceFlow id='aQHQN-tHY9-mEqw4obvo-18' sourceRef='syn_isplit_2_aQHQN-tHY9-mEqw4obvo-15' targetRef='aQHQN-tHY9-mEqw4obvo-16'/>
+    <bpmn:sequenceFlow id='aQHQN-tHY9-mEqw4obvo-30' sourceRef='aQHQN-tHY9-mEqw4obvo-16' targetRef='aQHQN-tHY9-mEqw4obvo-24'/>
+    <bpmn:sequenceFlow id='aQHQN-tHY9-mEqw4obvo-37' sourceRef='aQHQN-tHY9-mEqw4obvo-35' targetRef='aQHQN-tHY9-mEqw4obvo-26'/>
+    <bpmn:sequenceFlow id='WGzZ9-zR53CRMDJ7xSg_-12' sourceRef='WGzZ9-zR53CRMDJ7xSg_-6' targetRef='WGzZ9-zR53CRMDJ7xSg_-2'/>
+    <bpmn:sequenceFlow id='syn_flow_isplit_1' sourceRef='aQHQN-tHY9-mEqw4obvo-1' targetRef='syn_isplit_1_aQHQN-tHY9-mEqw4obvo-1'/>
+    <bpmn:sequenceFlow id='syn_flow_isplit_2' sourceRef='aQHQN-tHY9-mEqw4obvo-15' targetRef='syn_isplit_2_aQHQN-tHY9-mEqw4obvo-15'/>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id='BPMNDiagram_1'>
+    <bpmndi:BPMNPlane id='BPMNPlane_1' bpmnElement='Process_1'>
+      <bpmndi:BPMNShape id='vAyut_De6IwCnGqPx89W-19_di' bpmnElement='vAyut_De6IwCnGqPx89W-19' isHorizontal='true'>
+        <dc:Bounds x='120.5059' y='290.0' width='2320.0' height='380.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='vAyut_De6IwCnGqPx89W-20_di' bpmnElement='vAyut_De6IwCnGqPx89W-20' isHorizontal='true'>
+        <dc:Bounds x='120.5059' y='310.0' width='2320.0' height='200.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='vAyut_De6IwCnGqPx89W-25_di' bpmnElement='vAyut_De6IwCnGqPx89W-25' isHorizontal='true'>
+        <dc:Bounds x='120.5059' y='510.0' width='2320.0' height='160.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='vAyut_De6IwCnGqPx89W-84_di' bpmnElement='vAyut_De6IwCnGqPx89W-84' isHorizontal='true'>
+        <dc:Bounds x='120.5059' y='250.0' width='2309.0' height='18.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='vAyut_De6IwCnGqPx89W-26_di' bpmnElement='vAyut_De6IwCnGqPx89W-26' isHorizontal='true'>
+        <dc:Bounds x='120.5059' y='670.0' width='2319.0' height='920.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='rgK1mn1ULD_qLHTTGgeq-17_di' bpmnElement='rgK1mn1ULD_qLHTTGgeq-17' isHorizontal='true'>
+        <dc:Bounds x='120.5059' y='210.0' width='2309.0' height='18.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-1_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-1' isHorizontal='true'>
+        <dc:Bounds x='120.5059' y='172.0' width='2309.0' height='18.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='rgK1mn1ULD_qLHTTGgeq-22_di' bpmnElement='rgK1mn1ULD_qLHTTGgeq-22'>
+        <dc:Bounds x='1408.5059' y='375.0' width='120.0' height='75.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='rgK1mn1ULD_qLHTTGgeq-23_di' bpmnElement='rgK1mn1ULD_qLHTTGgeq-23'>
+        <dc:Bounds x='1443.5059' y='462.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='rgK1mn1ULD_qLHTTGgeq-24_di' bpmnElement='rgK1mn1ULD_qLHTTGgeq-24'>
+        <dc:Bounds x='1450.5059' y='322.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ozdrXW37CMP4rJSeyBz9-172_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-172'>
+        <dc:Bounds x='1554.5059' y='375.0' width='120.0' height='75.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ozdrXW37CMP4rJSeyBz9-176_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-176'>
+        <dc:Bounds x='1596.5059' y='322.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='aQHQN-tHY9-mEqw4obvo-1_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-1'>
+        <dc:Bounds x='953.5059' y='385.0' width='111.0' height='70.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='aQHQN-tHY9-mEqw4obvo-8_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-8'>
+        <dc:Bounds x='1104.5059' y='419.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='aQHQN-tHY9-mEqw4obvo-9_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-9'>
+        <dc:Bounds x='1104.5059' y='384.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='aQHQN-tHY9-mEqw4obvo-34_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-34'>
+        <dc:Bounds x='1959.5059' y='319.75' width='170.0' height='90.25'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='aQHQN-tHY9-mEqw4obvo-19_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-19'>
+        <dc:Bounds x='2171.5059' y='338.25' width='170.0' height='53.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='aQHQN-tHY9-mEqw4obvo-24_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-24'>
+        <dc:Bounds x='2171.5059' y='435.75' width='170.0' height='53.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='aQHQN-tHY9-mEqw4obvo-35_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-35'>
+        <dc:Bounds x='2351.5059' y='386.25' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-2_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-2'>
+        <dc:Bounds x='1204.5059' y='377.75' width='150.0' height='52.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-3_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-3'>
+        <dc:Bounds x='1260.5059' y='322.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='rWoODeaYEMIMVaM6c_ST-88_di' bpmnElement='rWoODeaYEMIMVaM6c_ST-88'>
+        <dc:Bounds x='1399.0059' y='606.5' width='142.0' height='41.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='rWoODeaYEMIMVaM6c_ST-89_di' bpmnElement='rWoODeaYEMIMVaM6c_ST-89'>
+        <dc:Bounds x='1527.0059' y='532.49' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='aQHQN-tHY9-mEqw4obvo-3_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-3'>
+        <dc:Bounds x='769.5059' y='891.5' width='160.0' height='110.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ozdrXW37CMP4rJSeyBz9-1_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-1'>
+        <dc:Bounds x='171.5059' y='928.5' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ozdrXW37CMP4rJSeyBz9-2_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-2'>
+        <dc:Bounds x='309.5059' y='793.0' width='120.0' height='44.5'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ozdrXW37CMP4rJSeyBz9-3_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-3'>
+        <dc:Bounds x='214.5059' y='921.5' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ozdrXW37CMP4rJSeyBz9-4_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-4'>
+        <dc:Bounds x='309.5059' y='842.5' width='120.0' height='44.5'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ozdrXW37CMP4rJSeyBz9-5_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-5'>
+        <dc:Bounds x='309.5059' y='892.0' width='120.0' height='44.5'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ozdrXW37CMP4rJSeyBz9-7_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-7'>
+        <dc:Bounds x='309.5059' y='941.0' width='120.0' height='100.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ozdrXW37CMP4rJSeyBz9-9_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-9'>
+        <dc:Bounds x='309.5059' y='1045.75' width='120.0' height='55.25'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ozdrXW37CMP4rJSeyBz9-14_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-14'>
+        <dc:Bounds x='464.5059' y='921.75' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='xPnzwD7OP5odCyVlyhQA-1_di' bpmnElement='xPnzwD7OP5odCyVlyhQA-1'>
+        <dc:Bounds x='785.7559' y='901.62' width='127.5' height='90.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='xPnzwD7OP5odCyVlyhQA-2_di' bpmnElement='xPnzwD7OP5odCyVlyhQA-2'>
+        <dc:Bounds x='968.5059' y='921.12' width='120.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='xPnzwD7OP5odCyVlyhQA-6_di' bpmnElement='xPnzwD7OP5odCyVlyhQA-6'>
+        <dc:Bounds x='1409.5059' y='720.0' width='120.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='JEwmcwG--m9Bxu1wyrqH-1_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-1'>
+        <dc:Bounds x='1413.5059' y='921.62' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='JEwmcwG--m9Bxu1wyrqH-7_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-7'>
+        <dc:Bounds x='1123.5059' y='921.18' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='JEwmcwG--m9Bxu1wyrqH-8_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-8'>
+        <dc:Bounds x='1218.5059' y='916.37' width='120.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='JEwmcwG--m9Bxu1wyrqH-9_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-9'>
+        <dc:Bounds x='1218.5059' y='984.37' width='120.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='JEwmcwG--m9Bxu1wyrqH-10_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-10'>
+        <dc:Bounds x='1218.5059' y='1050.62' width='120.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='JEwmcwG--m9Bxu1wyrqH-18_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-18'>
+        <dc:Bounds x='1218.5059' y='848.37' width='120.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-6_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-6'>
+        <dc:Bounds x='1208.5059' y='606.01' width='142.0' height='41.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-7_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-7'>
+        <dc:Bounds x='1336.5059' y='532.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-9_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-9'>
+        <dc:Bounds x='1219.0059' y='719.51' width='120.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-14_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-14'>
+        <dc:Bounds x='1260.5059' y='787.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-20_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-20'>
+        <dc:Bounds x='1451.5059' y='789.12' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-22_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-22'>
+        <dc:Bounds x='527.5059' y='918.0' width='131.0' height='58.5'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-23_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-23'>
+        <dc:Bounds x='679.5059' y='921.81' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-31_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-31'>
+        <dc:Bounds x='822.0059' y='1152.0' width='498.5' height='289.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-32_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-32'>
+        <dc:Bounds x='1680.5059' y='1229.76' width='130.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-34_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-34'>
+        <dc:Bounds x='644.5059' y='1229.0' width='120.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-35_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-35'>
+        <dc:Bounds x='815.5059' y='1233.75' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-37_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-37'>
+        <dc:Bounds x='880.5059' y='1158.0' width='160.0' height='100.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-38_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-38'>
+        <dc:Bounds x='880.5059' y='1281.51' width='160.0' height='65.49'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-39_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-39'>
+        <dc:Bounds x='1113.0059' y='1284.74' width='175.0' height='58.51'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-43_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-43'>
+        <dc:Bounds x='1495.5059' y='1234.76' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-45_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-45'>
+        <dc:Bounds x='1852.5059' y='1241.76' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-47_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-47'>
+        <dc:Bounds x='1586.5059' y='1234.76' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-49_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-49'>
+        <dc:Bounds x='1593.5059' y='1192.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-54_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-54'>
+        <dc:Bounds x='880.5059' y='1451.0' width='160.0' height='117.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-56_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-56'>
+        <dc:Bounds x='1084.5059' y='1491.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-57_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-57'>
+        <dc:Bounds x='1113.0059' y='1174.0' width='175.0' height='54.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-59_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-59'>
+        <dc:Bounds x='1770.5059' y='1129.0' width='151.0' height='62.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-64_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-64'>
+        <dc:Bounds x='1395.5059' y='1176.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-66_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-66'>
+        <dc:Bounds x='1402.5059' y='1241.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-67_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-67'>
+        <dc:Bounds x='1395.5059' y='1289.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-74_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-74'>
+        <dc:Bounds x='880.5059' y='1372.0' width='160.0' height='65.49'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-79_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-79'>
+        <dc:Bounds x='1078.0059' y='1379.75' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WGzZ9-zR53CRMDJ7xSg_-81_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-81'>
+        <dc:Bounds x='1085.0059' y='1445.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='aQHQN-tHY9-mEqw4obvo-15_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-15'>
+        <dc:Bounds x='1784.5059' y='385.0' width='111.0' height='53.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='aQHQN-tHY9-mEqw4obvo-16_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-16'>
+        <dc:Bounds x='1955.5059' y='436.0' width='170.0' height='53.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='aQHQN-tHY9-mEqw4obvo-20_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-20'>
+        <dc:Bounds x='1706.5059' y='393.5' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='aQHQN-tHY9-mEqw4obvo-26_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-26'>
+        <dc:Bounds x='2401.5059' y='393.25' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='syn_isplit_1_aQHQN-tHY9-mEqw4obvo-1_di' bpmnElement='syn_isplit_1_aQHQN-tHY9-mEqw4obvo-1'>
+        <dc:Bounds x='1084.5059' y='402.0' width='36' height='36'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='syn_isplit_2_aQHQN-tHY9-mEqw4obvo-15_di' bpmnElement='syn_isplit_2_aQHQN-tHY9-mEqw4obvo-15'>
+        <dc:Bounds x='1915.5059' y='393.5' width='36' height='36'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id='rgK1mn1ULD_qLHTTGgeq-63_di' bpmnElement='rgK1mn1ULD_qLHTTGgeq-63'>
+        <di:waypoint x='1468.5059' y='340.0'/>
+        <di:waypoint x='1468.5059' y='340.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='rgK1mn1ULD_qLHTTGgeq-66_di' bpmnElement='rgK1mn1ULD_qLHTTGgeq-66'>
+        <di:waypoint x='1468.5059' y='487.0'/>
+        <di:waypoint x='1468.5059' y='412.5'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='rgK1mn1ULD_qLHTTGgeq-67_di' bpmnElement='rgK1mn1ULD_qLHTTGgeq-67'>
+        <di:waypoint x='1603.5059' y='260.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='rgK1mn1ULD_qLHTTGgeq-68_di' bpmnElement='rgK1mn1ULD_qLHTTGgeq-68'>
+        <di:waypoint x='1614.5059' y='412.5'/>
+        <di:waypoint x='1614.5059' y='340.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='rgK1mn1ULD_qLHTTGgeq-69_di' bpmnElement='rgK1mn1ULD_qLHTTGgeq-69'>
+        <di:waypoint x='1457.5059' y='170.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='aQHQN-tHY9-mEqw4obvo-10_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-10'>
+        <di:waypoint x='1102.5059' y='420.0'/>
+        <di:waypoint x='1122.5059' y='437.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='aQHQN-tHY9-mEqw4obvo-12_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-12'>
+        <di:waypoint x='1102.5059' y='420.0'/>
+        <di:waypoint x='1122.5059' y='402.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='aQHQN-tHY9-mEqw4obvo-32_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-32'>
+        <di:waypoint x='2138.5059' y='200.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='aQHQN-tHY9-mEqw4obvo-36_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-36'>
+        <di:waypoint x='2365.5059' y='245.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='aQHQN-tHY9-mEqw4obvo-29_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-29'>
+        <di:waypoint x='2365.5059' y='185.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='rWoODeaYEMIMVaM6c_ST-87_di' bpmnElement='rWoODeaYEMIMVaM6c_ST-87'>
+        <di:waypoint x='1457.5059' y='380.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='rWoODeaYEMIMVaM6c_ST-90_di' bpmnElement='rWoODeaYEMIMVaM6c_ST-90'>
+        <di:waypoint x='1496.0059' y='163.82'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='tPlSaz22BzCCkuHwG36Z-60_di' bpmnElement='tPlSaz22BzCCkuHwG36Z-60'>
+        <di:waypoint x='189.5059' y='946.5'/>
+        <di:waypoint x='239.5059' y='946.5'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ozdrXW37CMP4rJSeyBz9-15_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-15'>
+        <di:waypoint x='239.5059' y='946.5'/>
+        <di:waypoint x='369.5059' y='815.25'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ozdrXW37CMP4rJSeyBz9-16_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-16'>
+        <di:waypoint x='239.5059' y='946.5'/>
+        <di:waypoint x='369.5059' y='864.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ozdrXW37CMP4rJSeyBz9-17_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-17'>
+        <di:waypoint x='369.5059' y='864.75'/>
+        <di:waypoint x='489.5059' y='946.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ozdrXW37CMP4rJSeyBz9-18_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-18'>
+        <di:waypoint x='369.5059' y='815.25'/>
+        <di:waypoint x='489.5059' y='946.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ozdrXW37CMP4rJSeyBz9-19_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-19'>
+        <di:waypoint x='239.5059' y='946.5'/>
+        <di:waypoint x='369.5059' y='914.25'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ozdrXW37CMP4rJSeyBz9-20_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-20'>
+        <di:waypoint x='239.5059' y='946.5'/>
+        <di:waypoint x='369.5059' y='991.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ozdrXW37CMP4rJSeyBz9-22_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-22'>
+        <di:waypoint x='239.5059' y='946.5'/>
+        <di:waypoint x='369.5059' y='1073.375'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ozdrXW37CMP4rJSeyBz9-27_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-27'>
+        <di:waypoint x='369.5059' y='914.25'/>
+        <di:waypoint x='489.5059' y='946.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ozdrXW37CMP4rJSeyBz9-28_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-28'>
+        <di:waypoint x='369.5059' y='991.0'/>
+        <di:waypoint x='489.5059' y='946.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ozdrXW37CMP4rJSeyBz9-30_di' bpmnElement='ozdrXW37CMP4rJSeyBz9-30'>
+        <di:waypoint x='369.5059' y='1073.375'/>
+        <di:waypoint x='489.5059' y='946.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='qnnq0DUpWEbhJxiza9om-5_di' bpmnElement='qnnq0DUpWEbhJxiza9om-5'>
+        <di:waypoint x='1028.5059' y='946.12'/>
+        <di:waypoint x='1148.5059' y='946.18'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='qnnq0DUpWEbhJxiza9om-16_di' bpmnElement='qnnq0DUpWEbhJxiza9om-16'>
+        <di:waypoint x='1458.5059' y='300.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='aQHQN-tHY9-mEqw4obvo-2_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-2'>
+        <di:waypoint x='849.5059' y='946.62'/>
+        <di:waypoint x='1028.5059' y='946.12'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='JEwmcwG--m9Bxu1wyrqH-2_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-2'>
+        <di:waypoint x='1278.5059' y='946.37'/>
+        <di:waypoint x='1438.5059' y='946.62'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='JEwmcwG--m9Bxu1wyrqH-3_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-3'>
+        <di:waypoint x='1278.5059' y='1014.37'/>
+        <di:waypoint x='1438.5059' y='946.62'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='JEwmcwG--m9Bxu1wyrqH-4_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-4'>
+        <di:waypoint x='1278.5059' y='1080.62'/>
+        <di:waypoint x='1438.5059' y='946.62'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='JEwmcwG--m9Bxu1wyrqH-13_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-13'>
+        <di:waypoint x='1148.5059' y='946.18'/>
+        <di:waypoint x='1278.5059' y='946.37'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='JEwmcwG--m9Bxu1wyrqH-14_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-14'>
+        <di:waypoint x='1148.5059' y='946.18'/>
+        <di:waypoint x='1278.5059' y='1014.37'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='JEwmcwG--m9Bxu1wyrqH-15_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-15'>
+        <di:waypoint x='1148.5059' y='946.18'/>
+        <di:waypoint x='1278.5059' y='1080.62'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='JEwmcwG--m9Bxu1wyrqH-19_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-19'>
+        <di:waypoint x='1148.5059' y='946.18'/>
+        <di:waypoint x='1278.5059' y='878.37'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='JEwmcwG--m9Bxu1wyrqH-20_di' bpmnElement='JEwmcwG--m9Bxu1wyrqH-20'>
+        <di:waypoint x='1278.5059' y='878.37'/>
+        <di:waypoint x='1438.5059' y='946.62'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-8_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-8'>
+        <di:waypoint x='1305.5059' y='3.330000000000041'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-10_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-10'>
+        <di:waypoint x='1279.0059' y='744.51'/>
+        <di:waypoint x='1279.5059' y='626.51'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-17_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-17'>
+        <di:waypoint x='1278.5059' y='805.0'/>
+        <di:waypoint x='1279.0059' y='744.51'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-21_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-21'>
+        <di:waypoint x='1469.5059' y='807.12'/>
+        <di:waypoint x='1469.5059' y='745.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-85_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-85'>
+        <di:waypoint x='704.5059' y='946.81'/>
+        <di:waypoint x='704.5059' y='1259.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-25_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-25'>
+        <di:waypoint x='593.0059' y='947.25'/>
+        <di:waypoint x='704.5059' y='946.81'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-28_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-28'>
+        <di:waypoint x='704.5059' y='946.81'/>
+        <di:waypoint x='849.5059' y='946.62'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-30_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-30'>
+        <di:waypoint x='489.5059' y='946.75'/>
+        <di:waypoint x='593.0059' y='947.25'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-33_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-33'>
+        <di:waypoint x='1745.5059' y='1259.76'/>
+        <di:waypoint x='1846.0059' y='1160.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-36_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-36'>
+        <di:waypoint x='704.5059' y='1259.0'/>
+        <di:waypoint x='840.5059' y='1258.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-40_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-40'>
+        <di:waypoint x='829.5059' y='704.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-41_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-41'>
+        <di:waypoint x='960.5059' y='1208.0'/>
+        <di:waypoint x='1200.5059' y='1201.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-42_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-42'>
+        <di:waypoint x='1200.5059' y='1201.0'/>
+        <di:waypoint x='1420.5059' y='1201.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-44_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-44'>
+        <di:waypoint x='1745.5059' y='1259.76'/>
+        <di:waypoint x='1870.5059' y='1259.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-46_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-46'>
+        <di:waypoint x='1520.5059' y='1259.76'/>
+        <di:waypoint x='1611.5059' y='1259.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-48_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-48'>
+        <di:waypoint x='1611.5059' y='1259.76'/>
+        <di:waypoint x='1611.5059' y='1210.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-51_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-51'>
+        <di:waypoint x='1611.5059' y='1259.76'/>
+        <di:waypoint x='1745.5059' y='1259.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-52_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-52'>
+        <di:waypoint x='829.5059' y='755.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-53_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-53'>
+        <di:waypoint x='960.5059' y='1314.2549999999999'/>
+        <di:waypoint x='1200.5059' y='1313.9950000000001'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-55_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-55'>
+        <di:waypoint x='960.5059' y='1509.5'/>
+        <di:waypoint x='1102.5059' y='1509.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-60_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-60'>
+        <di:waypoint x='1420.5059' y='1201.0'/>
+        <di:waypoint x='1520.5059' y='1259.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-62_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-62'>
+        <di:waypoint x='1420.5059' y='1201.0'/>
+        <di:waypoint x='1420.5059' y='1259.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-69_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-69'>
+        <di:waypoint x='1420.5059' y='1314.0'/>
+        <di:waypoint x='1520.5059' y='1259.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-71_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-71'>
+        <di:waypoint x='1420.5059' y='1314.0'/>
+        <di:waypoint x='1420.5059' y='1259.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-73_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-73'>
+        <di:waypoint x='1200.5059' y='1313.9950000000001'/>
+        <di:waypoint x='1420.5059' y='1314.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-75_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-75'>
+        <di:waypoint x='1103.0059' y='1404.75'/>
+        <di:waypoint x='1520.5059' y='1259.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-77_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-77'>
+        <di:waypoint x='1103.0059' y='1404.75'/>
+        <di:waypoint x='1103.0059' y='1463.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-80_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-80'>
+        <di:waypoint x='960.5059' y='1404.745'/>
+        <di:waypoint x='1103.0059' y='1404.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-82_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-82'>
+        <di:waypoint x='829.5059' y='804.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-84_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-84'>
+        <di:waypoint x='789.5059' y='874.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='rgK1mn1ULD_qLHTTGgeq-147_di' bpmnElement='rgK1mn1ULD_qLHTTGgeq-147'>
+        <di:waypoint x='1469.5059' y='745.0'/>
+        <di:waypoint x='1470.0059' y='627.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='aQHQN-tHY9-mEqw4obvo-5_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-5'>
+        <di:waypoint x='849.5059' y='690.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='aQHQN-tHY9-mEqw4obvo-17_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-17'>
+        <di:waypoint x='1929.5059' y='390.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='aQHQN-tHY9-mEqw4obvo-18_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-18'>
+        <di:waypoint x='1929.5059' y='440.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='aQHQN-tHY9-mEqw4obvo-30_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-30'>
+        <di:waypoint x='2164.5059' y='445.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='aQHQN-tHY9-mEqw4obvo-37_di' bpmnElement='aQHQN-tHY9-mEqw4obvo-37'>
+        <di:waypoint x='2376.5059' y='411.25'/>
+        <di:waypoint x='2419.5059' y='411.25'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WGzZ9-zR53CRMDJ7xSg_-12_di' bpmnElement='WGzZ9-zR53CRMDJ7xSg_-12'>
+        <di:waypoint x='1279.5059' y='626.51'/>
+        <di:waypoint x='1279.5059' y='403.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='syn_flow_isplit_1_di' bpmnElement='syn_flow_isplit_1'>
+        <di:waypoint x='1009.0059' y='420.0'/>
+        <di:waypoint x='1102.5059' y='420.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='syn_flow_isplit_2_di' bpmnElement='syn_flow_isplit_2'>
+        <di:waypoint x='1840.0059' y='411.5'/>
+        <di:waypoint x='1933.5059' y='411.5'/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

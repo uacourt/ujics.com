@@ -1,0 +1,1508 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bpmn:definitions xmlns:bpmn='http://www.omg.org/spec/BPMN/20100524/MODEL' xmlns:bpmndi='http://www.omg.org/spec/BPMN/20100524/DI' xmlns:dc='http://www.omg.org/spec/DD/20100524/DC' xmlns:di='http://www.omg.org/spec/DD/20100524/DI' targetNamespace='http://bpmn.io/schema/bpmn' id='Definitions_1775264170'>
+  <bpmn:process id='Process_1' isExecutable='false'>
+    <bpmn:laneSet id='LaneSet_1'>
+      <bpmn:lane id='vAyut_De6IwCnGqPx89W-84' name='Заявник / учасник судового процесу / заінтересована особа'/>
+      <bpmn:lane id='T_3m5fmwSW-BjU6WBglm-231' name='Треті особи'/>
+      <bpmn:lane id='vAyut_De6IwCnGqPx89W-19' name='Суд'>
+        <bpmn:flowNodeRef>xFkPp5M3zKD4SYzTMsLY-5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>xFkPp5M3zKD4SYzTMsLY-31</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>_natyxWOobNJQucEAHAE-5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>zBaqwaSJ1m1VU1vwOP7i-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_3m5fmwSW-BjU6WBglm-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_3m5fmwSW-BjU6WBglm-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_3m5fmwSW-BjU6WBglm-4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GblVOnGCP5eaobR45seR-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Hf2ZKQdA3xv8BROUWDP2-16</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Hf2ZKQdA3xv8BROUWDP2-17</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Hf2ZKQdA3xv8BROUWDP2-23</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>AfiBWiJvVULpi_bI7-Tp-34</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>xFkPp5M3zKD4SYzTMsLY-28</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-74</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GPZg6U0mXFa9kcMsSSgN-6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>TR1-OwJ4w3rAHMMEg73Q-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Hf2ZKQdA3xv8BROUWDP2-14</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-60</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-13</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-16</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-19</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-18</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-17</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-31</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-40</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-81</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-86</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Yb3Uxd6FhWQBxp5jrYgA-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>eMG4RQ3z-A5OfSXCJ-Oj-57</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-90</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-26</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-17</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-19</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-20</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-21</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-22</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-23</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-24</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-25</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-11</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-12</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-13</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-14</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Xe1-jS0fRj-o8fzYC13A-63</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>AfiBWiJvVULpi_bI7-Tp-24</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>xFkPp5M3zKD4SYzTMsLY-26</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-56</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GPZg6U0mXFa9kcMsSSgN-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>_natyxWOobNJQucEAHAE-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>_natyxWOobNJQucEAHAE-4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>_natyxWOobNJQucEAHAE-7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>TR1-OwJ4w3rAHMMEg73Q-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_7l32CMybQGAGzA7F6XxO-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T39CjOucMUAb6CcNUWKf-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-12</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-15</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-16</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-17</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-20</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-22</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-23</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-30</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-32</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-38</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-40</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-48</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-61</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-63</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-71</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_3m5fmwSW-BjU6WBglm-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_3m5fmwSW-BjU6WBglm-221</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_3m5fmwSW-BjU6WBglm-223</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Hf2ZKQdA3xv8BROUWDP2-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Hf2ZKQdA3xv8BROUWDP2-13</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>BgVumuXLWf0v4Xr0rbFz-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WRc8SP0kT36MRJF_Wele-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WRc8SP0kT36MRJF_Wele-7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WRc8SP0kT36MRJF_Wele-8</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WRc8SP0kT36MRJF_Wele-14</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WRc8SP0kT36MRJF_Wele-16</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ywSE4qTThs3-Gb8Ta71V-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ywSE4qTThs3-Gb8Ta71V-12</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ywSE4qTThs3-Gb8Ta71V-19</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id='vAyut_De6IwCnGqPx89W-20' name='Апарат суду'>
+        <bpmn:flowNodeRef>xFkPp5M3zKD4SYzTMsLY-5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>xFkPp5M3zKD4SYzTMsLY-31</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>_natyxWOobNJQucEAHAE-5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>zBaqwaSJ1m1VU1vwOP7i-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_3m5fmwSW-BjU6WBglm-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_3m5fmwSW-BjU6WBglm-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_3m5fmwSW-BjU6WBglm-4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GblVOnGCP5eaobR45seR-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Hf2ZKQdA3xv8BROUWDP2-16</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Hf2ZKQdA3xv8BROUWDP2-17</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Hf2ZKQdA3xv8BROUWDP2-23</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id='vAyut_De6IwCnGqPx89W-25' name='Патронатна служба (помічники)'>
+        <bpmn:flowNodeRef>AfiBWiJvVULpi_bI7-Tp-34</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>xFkPp5M3zKD4SYzTMsLY-28</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-74</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GPZg6U0mXFa9kcMsSSgN-6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>TR1-OwJ4w3rAHMMEg73Q-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Hf2ZKQdA3xv8BROUWDP2-14</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id='vAyut_De6IwCnGqPx89W-26' name='Судді'>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-60</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-13</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-16</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-19</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-18</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-17</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-31</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-40</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-81</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-86</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Yb3Uxd6FhWQBxp5jrYgA-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>eMG4RQ3z-A5OfSXCJ-Oj-57</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-90</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-26</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-17</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-19</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-20</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-21</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-22</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-23</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-24</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-25</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-11</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-12</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-13</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ux5EftYqiHLUuLAUo58e-14</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Xe1-jS0fRj-o8fzYC13A-63</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>AfiBWiJvVULpi_bI7-Tp-24</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>xFkPp5M3zKD4SYzTMsLY-26</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_95T2qpr_bdB_fHr1BSOe-56</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GPZg6U0mXFa9kcMsSSgN-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>_natyxWOobNJQucEAHAE-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>_natyxWOobNJQucEAHAE-4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>_natyxWOobNJQucEAHAE-7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>TR1-OwJ4w3rAHMMEg73Q-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>id_7l32CMybQGAGzA7F6XxO-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T39CjOucMUAb6CcNUWKf-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-12</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-15</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-16</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-17</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-20</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-22</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-23</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-30</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-32</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-38</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-40</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-48</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-61</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-63</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IEoV7ImQ8Nmd_irDuSAv-71</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_3m5fmwSW-BjU6WBglm-1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_3m5fmwSW-BjU6WBglm-221</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_3m5fmwSW-BjU6WBglm-223</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Hf2ZKQdA3xv8BROUWDP2-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Hf2ZKQdA3xv8BROUWDP2-13</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>BgVumuXLWf0v4Xr0rbFz-2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WRc8SP0kT36MRJF_Wele-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WRc8SP0kT36MRJF_Wele-7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WRc8SP0kT36MRJF_Wele-8</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WRc8SP0kT36MRJF_Wele-14</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>WRc8SP0kT36MRJF_Wele-16</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ywSE4qTThs3-Gb8Ta71V-3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ywSE4qTThs3-Gb8Ta71V-12</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ywSE4qTThs3-Gb8Ta71V-19</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id='id_95T2qpr_bdB_fHr1BSOe-24' name='Інший суд'/>
+    </bpmn:laneSet>
+    <bpmn:endEvent id='xFkPp5M3zKD4SYzTMsLY-5' name='intermediateThrowEvent'>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-22</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:endEvent id='xFkPp5M3zKD4SYzTMsLY-31' name='intermediateThrowEvent'>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-32</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:startEvent id='_natyxWOobNJQucEAHAE-5' name='intermediateThrowEvent'>
+      <bpmn:outgoing>id_3pW4crKo2uM4s5AoE1cD-2</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:startEvent id='zBaqwaSJ1m1VU1vwOP7i-2' name='intermediateThrowEvent'>
+      <bpmn:messageEventDefinition id='MessageEventDefinition_zBaqwaSJ1m1VU1vwOP7i-2'/>
+      <bpmn:outgoing>zBaqwaSJ1m1VU1vwOP7i-5</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:endEvent id='T_3m5fmwSW-BjU6WBglm-2' name='intermediateThrowEvent'>
+      <bpmn:incoming>T_3m5fmwSW-BjU6WBglm-234</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:exclusiveGateway id='T_3m5fmwSW-BjU6WBglm-3' name='exclusiveGateway'>
+      <bpmn:outgoing>T_3m5fmwSW-BjU6WBglm-233</bpmn:outgoing>
+      <bpmn:outgoing>T_3m5fmwSW-BjU6WBglm-234</bpmn:outgoing>
+      <bpmn:incoming>T_3m5fmwSW-BjU6WBglm-232</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id='T_3m5fmwSW-BjU6WBglm-4' name='intermediateThrowEvent'>
+      <bpmn:incoming>T_3m5fmwSW-BjU6WBglm-233</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:endEvent id='GblVOnGCP5eaobR45seR-1' name='intermediateThrowEvent'>
+      <bpmn:incoming>TR1-OwJ4w3rAHMMEg73Q-10</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:endEvent id='Hf2ZKQdA3xv8BROUWDP2-16' name='intermediateThrowEvent'>
+      <bpmn:incoming>Hf2ZKQdA3xv8BROUWDP2-20</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:endEvent id='Hf2ZKQdA3xv8BROUWDP2-17' name='intermediateThrowEvent'>
+      <bpmn:incoming>Hf2ZKQdA3xv8BROUWDP2-19</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:exclusiveGateway id='Hf2ZKQdA3xv8BROUWDP2-23' name='exclusiveGateway'>
+      <bpmn:outgoing>Hf2ZKQdA3xv8BROUWDP2-19</bpmn:outgoing>
+      <bpmn:outgoing>Hf2ZKQdA3xv8BROUWDP2-20</bpmn:outgoing>
+      <bpmn:incoming>Hf2ZKQdA3xv8BROUWDP2-24</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:userTask id='AfiBWiJvVULpi_bI7-Tp-34' name='Внести ухвалу судді до ДСС/Д3'>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-24</bpmn:incoming>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-22</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:userTask id='xFkPp5M3zKD4SYzTMsLY-28' name='Внести ухвалу судді до ДСС/Д3'>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-29</bpmn:incoming>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-32</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:userTask id='id_95T2qpr_bdB_fHr1BSOe-74' name='Внести ухвалу судді до ДСС/Д3'>
+      <bpmn:incoming>id_95T2qpr_bdB_fHr1BSOe-93</bpmn:incoming>
+      <bpmn:incoming>vR6Sqzw8GcYJVkgB5ilc-6</bpmn:incoming>
+      <bpmn:outgoing>syn_flow_isplit_1</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:dataStoreReference id='vR6Sqzw8GcYJVkgB5ilc-13'/>
+    <bpmn:dataStoreReference id='vR6Sqzw8GcYJVkgB5ilc-156'/>
+    <bpmn:dataStoreReference id='vR6Sqzw8GcYJVkgB5ilc-154'/>
+    <bpmn:dataStoreReference id='id_95T2qpr_bdB_fHr1BSOe-102'/>
+    <bpmn:endEvent id='GPZg6U0mXFa9kcMsSSgN-6' name='Направити запити'>
+      <bpmn:incoming>K3s5KRsgfbHYeBIzRgwy-1</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:startEvent id='TR1-OwJ4w3rAHMMEg73Q-2' name='Внести ухвалу судді до ДСС/Д3'>
+      <bpmn:messageEventDefinition id='MessageEventDefinition_TR1-OwJ4w3rAHMMEg73Q-2'/>
+      <bpmn:outgoing>TR1-OwJ4w3rAHMMEg73Q-10</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:dataStoreReference id='TR1-OwJ4w3rAHMMEg73Q-5'/>
+    <bpmn:userTask id='Hf2ZKQdA3xv8BROUWDP2-14' name='Внести ухвалу судді до ДСС/Д3'>
+      <bpmn:outgoing>Hf2ZKQdA3xv8BROUWDP2-24</bpmn:outgoing>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-18</bpmn:incoming>
+    </bpmn:userTask>
+    <bpmn:dataStoreReference id='vfR5h07RtAKOr1QEzBwR-2'/>
+    <bpmn:startEvent id='IEoV7ImQ8Nmd_irDuSAv-60' name='Start 6'>
+      <bpmn:messageEventDefinition id='MessageEventDefinition_IEoV7ImQ8Nmd_irDuSAv-60'/>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-62</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:intermediateThrowEvent id='id_95T2qpr_bdB_fHr1BSOe-7' name='intermediateThrowEvent'>
+      <bpmn:incoming>zBaqwaSJ1m1VU1vwOP7i-5</bpmn:incoming>
+      <bpmn:outgoing>UeVVwcErJcxSzJERRUiJ-3</bpmn:outgoing>
+    </bpmn:intermediateThrowEvent>
+    <bpmn:businessRuleTask id='id_95T2qpr_bdB_fHr1BSOe-13' name='Перевірити відповідність по формі і змісту'>
+      <bpmn:incoming>UeVVwcErJcxSzJERRUiJ-7</bpmn:incoming>
+      <bpmn:outgoing>syn_flow_isplit_2</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='id_95T2qpr_bdB_fHr1BSOe-16' name='Повернути позовну або іншу проц. заяву'>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-18</bpmn:outgoing>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-240</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='id_95T2qpr_bdB_fHr1BSOe-19' name='Залишити позовну або іншу проц. заяву без руху (надати строк на усунення недоліків)'>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-34</bpmn:outgoing>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-247</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='id_95T2qpr_bdB_fHr1BSOe-18' name='Відмовити у відкритті'>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-20</bpmn:outgoing>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-242</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='id_95T2qpr_bdB_fHr1BSOe-17' name='Передати справу на розгляд іншому суду'>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-27</bpmn:outgoing>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-244</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:intermediateThrowEvent id='id_95T2qpr_bdB_fHr1BSOe-31' name='intermediateThrowEvent'>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-34</bpmn:incoming>
+      <bpmn:outgoing>TR1-OwJ4w3rAHMMEg73Q-3</bpmn:outgoing>
+    </bpmn:intermediateThrowEvent>
+    <bpmn:exclusiveGateway id='id_95T2qpr_bdB_fHr1BSOe-40' name='exclusiveGateway'>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-36</bpmn:incoming>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-38</bpmn:outgoing>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-39</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id='id_95T2qpr_bdB_fHr1BSOe-81' name='intermediateThrowEvent'>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-39</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:endEvent id='id_95T2qpr_bdB_fHr1BSOe-86' name='intermediateThrowEvent'>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-38</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:intermediateThrowEvent id='Yb3Uxd6FhWQBxp5jrYgA-3' name='intermediateThrowEvent'>
+      <bpmn:incoming>id_3pW4crKo2uM4s5AoE1cD-2</bpmn:incoming>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-36</bpmn:outgoing>
+    </bpmn:intermediateThrowEvent>
+    <bpmn:exclusiveGateway id='eMG4RQ3z-A5OfSXCJ-Oj-57' name='exclusiveGateway'>
+      <bpmn:incoming>eMG4RQ3z-A5OfSXCJ-Oj-59</bpmn:incoming>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-239</bpmn:outgoing>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-240</bpmn:outgoing>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-241</bpmn:outgoing>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-242</bpmn:outgoing>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-243</bpmn:outgoing>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-244</bpmn:outgoing>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-247</bpmn:outgoing>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-249</bpmn:outgoing>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-250</bpmn:outgoing>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-251</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-6' name='Залишити позовну заяву або інший проц. заяву без розгляду'>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-19</bpmn:outgoing>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-241</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-7' name='Відмовити у поновленні проц. строку'>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-17</bpmn:outgoing>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-239</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:startEvent id='id_95T2qpr_bdB_fHr1BSOe-90' name='intermediateThrowEvent'>
+      <bpmn:messageEventDefinition id='MessageEventDefinition_id_95T2qpr_bdB_fHr1BSOe-90'/>
+      <bpmn:outgoing>MtW7TlwyilQuHVQOJi66-13</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-26' name='Прийняти додаткове проц. рішення, яке не потребує виклику (участі) учасників процесу'>
+      <bpmn:incoming>t-DyxCg9REIbWnixEzsH-1</bpmn:incoming>
+      <bpmn:outgoing>t-DyxCg9REIbWnixEzsH-2</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-17' name='Відстрочення/розстрочення/звілнення від сплати судового збору'>
+      <bpmn:incoming>AfiBWiJvVULpi_bI7-Tp-3</bpmn:incoming>
+      <bpmn:outgoing>_natyxWOobNJQucEAHAE-14</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-19' name='Забезпечення позову/зустрічне забезпечення позову'>
+      <bpmn:outgoing>AfiBWiJvVULpi_bI7-Tp-14</bpmn:outgoing>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-6</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-20' name='Виклик свідків'>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-8</bpmn:incoming>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-16</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-21' name='Витребування доказів'>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-9</bpmn:incoming>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-15</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-22' name='Розгляд справи в порядку загального/спрощеного провадження'>
+      <bpmn:outgoing>AfiBWiJvVULpi_bI7-Tp-17</bpmn:outgoing>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-11</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-23' name='Долучення третіх осіб, які не заявляють самостійних вимог'>
+      <bpmn:outgoing>AfiBWiJvVULpi_bI7-Tp-18</bpmn:outgoing>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-12</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-24' name='Колегіальний розгляд справи'>
+      <bpmn:outgoing>AfiBWiJvVULpi_bI7-Tp-19</bpmn:outgoing>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-13</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-25' name='Інші питання відповідно до закону'>
+      <bpmn:outgoing>AfiBWiJvVULpi_bI7-Tp-20</bpmn:outgoing>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-14</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-11' name='Поновити проц. строк на подання позову або іншої проц. заяви'>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-249</bpmn:incoming>
+      <bpmn:outgoing>t-DyxCg9REIbWnixEzsH-7</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-12' name='Задовольнити окрему проц. заяву'>
+      <bpmn:outgoing>id_7Ihu8IjUHvZkqYCl5e5e-16</bpmn:outgoing>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-250</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-13' name='Відмовити у задоволенні окремої проц. заяви'>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-251</bpmn:incoming>
+      <bpmn:outgoing>id_7Ihu8IjUHvZkqYCl5e5e-15</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='ux5EftYqiHLUuLAUo58e-14' name='Прийняти/призначити до розгляду позовну або іншу проц. заяву та/або відкрити провадження'>
+      <bpmn:outgoing>t-DyxCg9REIbWnixEzsH-1</bpmn:outgoing>
+      <bpmn:incoming>id_7Ihu8IjUHvZkqYCl5e5e-16</bpmn:incoming>
+      <bpmn:incoming>id_7Ihu8IjUHvZkqYCl5e5e-15</bpmn:incoming>
+      <bpmn:incoming>MtW7TlwyilQuHVQOJi66-13</bpmn:incoming>
+      <bpmn:incoming>t-DyxCg9REIbWnixEzsH-7</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:endEvent id='Xe1-jS0fRj-o8fzYC13A-63' name='Задовільнити відвід/самовідвід'>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-243</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:businessRuleTask id='AfiBWiJvVULpi_bI7-Tp-24' name='Постановити ухвалу'>
+      <bpmn:incoming>AfiBWiJvVULpi_bI7-Tp-25</bpmn:incoming>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-17</bpmn:incoming>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-18</bpmn:incoming>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-19</bpmn:incoming>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-20</bpmn:incoming>
+      <bpmn:outgoing>syn_flow_isplit_3</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='xFkPp5M3zKD4SYzTMsLY-26' name='Постановити ухвалу'>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-29</bpmn:outgoing>
+      <bpmn:incoming>xFkPp5M3zKD4SYzTMsLY-27</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:businessRuleTask id='id_95T2qpr_bdB_fHr1BSOe-56' name='Постановити ухвалу'>
+      <bpmn:outgoing>_natyxWOobNJQucEAHAE-9</bpmn:outgoing>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-19</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:endEvent id='GPZg6U0mXFa9kcMsSSgN-3' name='intermediateThrowEvent'>
+      <bpmn:incoming>_natyxWOobNJQucEAHAE-10</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:textAnnotation id='_natyxWOobNJQucEAHAE-1'>
+      <bpmn:text>intermediateThrowEvent</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:exclusiveGateway id='_natyxWOobNJQucEAHAE-2' name='exclusiveGateway'>
+      <bpmn:incoming>t-DyxCg9REIbWnixEzsH-2</bpmn:incoming>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-4</bpmn:incoming>
+      <bpmn:outgoing>syn_flow_split_4</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id='_natyxWOobNJQucEAHAE-4' name='exclusiveGateway'>
+      <bpmn:incoming>AfiBWiJvVULpi_bI7-Tp-14</bpmn:incoming>
+      <bpmn:incoming>AfiBWiJvVULpi_bI7-Tp-18</bpmn:incoming>
+      <bpmn:incoming>AfiBWiJvVULpi_bI7-Tp-17</bpmn:incoming>
+      <bpmn:incoming>AfiBWiJvVULpi_bI7-Tp-19</bpmn:incoming>
+      <bpmn:incoming>AfiBWiJvVULpi_bI7-Tp-20</bpmn:incoming>
+      <bpmn:outgoing>AfiBWiJvVULpi_bI7-Tp-21</bpmn:outgoing>
+      <bpmn:incoming>_natyxWOobNJQucEAHAE-14</bpmn:incoming>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-15</bpmn:incoming>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-16</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:parallelGateway id='_natyxWOobNJQucEAHAE-7' name='parallelGateway'>
+      <bpmn:outgoing>id_95T2qpr_bdB_fHr1BSOe-93</bpmn:outgoing>
+      <bpmn:incoming>_natyxWOobNJQucEAHAE-9</bpmn:incoming>
+      <bpmn:outgoing>_natyxWOobNJQucEAHAE-10</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:businessRuleTask id='TR1-OwJ4w3rAHMMEg73Q-1' name='Постановити ухвалу'>
+      <bpmn:outgoing>id_7l32CMybQGAGzA7F6XxO-2</bpmn:outgoing>
+      <bpmn:incoming>TR1-OwJ4w3rAHMMEg73Q-3</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:parallelGateway id='id_7l32CMybQGAGzA7F6XxO-1' name='parallelGateway'>
+      <bpmn:incoming>id_7l32CMybQGAGzA7F6XxO-2</bpmn:incoming>
+      <bpmn:outgoing>syn_flow_end_5</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:serviceTask id='T39CjOucMUAb6CcNUWKf-1' name='Авторозподіл'>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-31</bpmn:outgoing>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-42</bpmn:incoming>
+    </bpmn:serviceTask>
+    <bpmn:textAnnotation id='C-mqvkpRgGDrjUF-Eks6-1'>
+      <bpmn:text>Див. БП &quot;Первісне подання позовної абоіншої проц. заяви&quot;</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:intermediateThrowEvent id='IEoV7ImQ8Nmd_irDuSAv-3' name='intermediateThrowEvent'>
+      <bpmn:outgoing>ywSE4qTThs3-Gb8Ta71V-16</bpmn:outgoing>
+      <bpmn:incoming>ywSE4qTThs3-Gb8Ta71V-14</bpmn:incoming>
+    </bpmn:intermediateThrowEvent>
+    <bpmn:task id='IEoV7ImQ8Nmd_irDuSAv-5' name='Розглянути заяву про відвід/самовідвід поточним складом суду'>
+      <bpmn:incoming>ywSE4qTThs3-Gb8Ta71V-16</bpmn:incoming>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-8</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id='IEoV7ImQ8Nmd_irDuSAv-6' name='exclusiveGateway'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-8</bpmn:incoming>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-24</bpmn:outgoing>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-43</bpmn:outgoing>
+      <bpmn:outgoing>WRc8SP0kT36MRJF_Wele-10</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id='IEoV7ImQ8Nmd_irDuSAv-12' name='Направити справу на авторозподіл для визначенння складу суду: судді, який розглядає справу одноособово'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-25</bpmn:incoming>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-27</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id='IEoV7ImQ8Nmd_irDuSAv-15' name='Якщо суд дійде висновку про задоволення заяви про відвід'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-24</bpmn:incoming>
+      <bpmn:outgoing>T_3m5fmwSW-BjU6WBglm-224</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id='IEoV7ImQ8Nmd_irDuSAv-16' name='Якщо суд дійде висновку про необгрунтованість заявленого відводу'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-43</bpmn:incoming>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-49</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id='IEoV7ImQ8Nmd_irDuSAv-17' name='Вирішення питання про відвід здійснюється суддею, який не входить до складу суду, що розглядає справу, і визначається через авторозподіл (такому судді не може бути заявлений відвід)'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-45</bpmn:incoming>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-47</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id='IEoV7ImQ8Nmd_irDuSAv-20' name='Заява про відвід судді надійшла до суду пізніше ніж за 3 робочі дні до наступного засідання'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-51</bpmn:incoming>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-52</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id='IEoV7ImQ8Nmd_irDuSAv-22' name='Заява про такий відвід надійшла до суду за 3 робочі дні (або раніше) до наступного засідання'>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-45</bpmn:outgoing>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-50</bpmn:incoming>
+    </bpmn:task>
+    <bpmn:task id='IEoV7ImQ8Nmd_irDuSAv-23' name='Заява не підлягає передачі на розгляд іншому судді, а питання про відвід судді вирішується судом, що розглядає справу'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-52</bpmn:incoming>
+      <bpmn:outgoing>WRc8SP0kT36MRJF_Wele-19</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id='IEoV7ImQ8Nmd_irDuSAv-30' name='exclusiveGateway'>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-33</bpmn:outgoing>
+      <bpmn:incoming>WRc8SP0kT36MRJF_Wele-4</bpmn:incoming>
+      <bpmn:incoming>WRc8SP0kT36MRJF_Wele-23</bpmn:incoming>
+      <bpmn:incoming>WRc8SP0kT36MRJF_Wele-25</bpmn:incoming>
+      <bpmn:incoming>ywSE4qTThs3-Gb8Ta71V-5</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id='IEoV7ImQ8Nmd_irDuSAv-32' name='intermediateThrowEvent'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-31</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:textAnnotation id='IEoV7ImQ8Nmd_irDuSAv-1'>
+      <bpmn:text>intermediateThrowEvent</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:textAnnotation id='IEoV7ImQ8Nmd_irDuSAv-36'>
+      <bpmn:text>intermediateThrowEvent</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:parallelGateway id='IEoV7ImQ8Nmd_irDuSAv-38' name='parallelGateway'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-33</bpmn:incoming>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-39</bpmn:outgoing>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-42</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:endEvent id='IEoV7ImQ8Nmd_irDuSAv-40' name='intermediateThrowEvent'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-39</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:exclusiveGateway id='IEoV7ImQ8Nmd_irDuSAv-48' name='exclusiveGateway'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-49</bpmn:incoming>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-50</bpmn:outgoing>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-51</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id='IEoV7ImQ8Nmd_irDuSAv-61' name='Якщо питання про відвід судді в порядку, визначеному вище, неможливо розглянути в суді, в якому розглядається справа'>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-64</bpmn:outgoing>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-62</bpmn:incoming>
+    </bpmn:task>
+    <bpmn:task id='IEoV7ImQ8Nmd_irDuSAv-63' name='Справа для вирішення питання про відвід передається до суду відповідної інстанції, найбільш територіально наближеного до цього суду'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-64</bpmn:incoming>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-70</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:textAnnotation id='IEoV7ImQ8Nmd_irDuSAv-66'>
+      <bpmn:text>intermediateThrowEvent</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:endEvent id='IEoV7ImQ8Nmd_irDuSAv-71' name='intermediateThrowEvent'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-70</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:endEvent id='T_3m5fmwSW-BjU6WBglm-1' name='intermediateThrowEvent'>
+      <bpmn:incoming>WRc8SP0kT36MRJF_Wele-17</bpmn:incoming>
+      <bpmn:incoming>WRc8SP0kT36MRJF_Wele-18</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:task id='T_3m5fmwSW-BjU6WBglm-221' name='Направити справу на авторозподіл для визначенння складу суду: судді або суддів, які розглядають справу у складі колегії із збереженням кількісного складу колегії суддів'>
+      <bpmn:incoming>T_3m5fmwSW-BjU6WBglm-227</bpmn:incoming>
+      <bpmn:outgoing>ywSE4qTThs3-Gb8Ta71V-4</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id='T_3m5fmwSW-BjU6WBglm-223' name='exclusiveGateway'>
+      <bpmn:outgoing>IEoV7ImQ8Nmd_irDuSAv-25</bpmn:outgoing>
+      <bpmn:incoming>T_3m5fmwSW-BjU6WBglm-224</bpmn:incoming>
+      <bpmn:outgoing>T_3m5fmwSW-BjU6WBglm-227</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:startEvent id='Hf2ZKQdA3xv8BROUWDP2-2' name='Повідомити (викликати) учасників справи'>
+      <bpmn:messageEventDefinition id='MessageEventDefinition_Hf2ZKQdA3xv8BROUWDP2-2'/>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-4</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:businessRuleTask id='Hf2ZKQdA3xv8BROUWDP2-13' name='Постановити ухвалу/здійснити судове повідомлення та/або виклик'>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-18</bpmn:outgoing>
+      <bpmn:incoming>BgVumuXLWf0v4Xr0rbFz-5</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:exclusiveGateway id='BgVumuXLWf0v4Xr0rbFz-2' name='exclusiveGateway'>
+      <bpmn:incoming>AfiBWiJvVULpi_bI7-Tp-21</bpmn:incoming>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-5</bpmn:outgoing>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-19</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id='WRc8SP0kT36MRJF_Wele-3' name='Вирішити питання самовідводу'>
+      <bpmn:incoming>WRc8SP0kT36MRJF_Wele-10</bpmn:incoming>
+      <bpmn:outgoing>ywSE4qTThs3-Gb8Ta71V-9</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id='WRc8SP0kT36MRJF_Wele-7' name='exclusiveGateway'>
+      <bpmn:outgoing>WRc8SP0kT36MRJF_Wele-4</bpmn:outgoing>
+      <bpmn:outgoing>WRc8SP0kT36MRJF_Wele-12</bpmn:outgoing>
+      <bpmn:incoming>ywSE4qTThs3-Gb8Ta71V-9</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id='WRc8SP0kT36MRJF_Wele-8' name='intermediateThrowEvent'>
+      <bpmn:incoming>WRc8SP0kT36MRJF_Wele-12</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:exclusiveGateway id='WRc8SP0kT36MRJF_Wele-14' name='exclusiveGateway'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-47</bpmn:incoming>
+      <bpmn:outgoing>WRc8SP0kT36MRJF_Wele-17</bpmn:outgoing>
+      <bpmn:outgoing>WRc8SP0kT36MRJF_Wele-23</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id='WRc8SP0kT36MRJF_Wele-16' name='exclusiveGateway'>
+      <bpmn:outgoing>WRc8SP0kT36MRJF_Wele-18</bpmn:outgoing>
+      <bpmn:incoming>WRc8SP0kT36MRJF_Wele-19</bpmn:incoming>
+      <bpmn:outgoing>WRc8SP0kT36MRJF_Wele-25</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id='ywSE4qTThs3-Gb8Ta71V-3' name='exclusiveGateway'>
+      <bpmn:incoming>IEoV7ImQ8Nmd_irDuSAv-27</bpmn:incoming>
+      <bpmn:incoming>ywSE4qTThs3-Gb8Ta71V-4</bpmn:incoming>
+      <bpmn:outgoing>ywSE4qTThs3-Gb8Ta71V-5</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:businessRuleTask id='ywSE4qTThs3-Gb8Ta71V-12' name='Перевірка на наявність конфлікту інтересів'>
+      <bpmn:outgoing>UeVVwcErJcxSzJERRUiJ-6</bpmn:outgoing>
+      <bpmn:incoming>UeVVwcErJcxSzJERRUiJ-3</bpmn:incoming>
+    </bpmn:businessRuleTask>
+    <bpmn:exclusiveGateway id='ywSE4qTThs3-Gb8Ta71V-19' name='exclusiveGateway'>
+      <bpmn:incoming>UeVVwcErJcxSzJERRUiJ-6</bpmn:incoming>
+      <bpmn:outgoing>ywSE4qTThs3-Gb8Ta71V-14</bpmn:outgoing>
+      <bpmn:outgoing>UeVVwcErJcxSzJERRUiJ-7</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id='syn_end_5' name='End 5'>
+      <bpmn:incoming>syn_flow_end_5</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:exclusiveGateway id='syn_isplit_1_id_95T2qpr_bdB_fHr1BSOe-74'>
+      <bpmn:outgoing>vR6Sqzw8GcYJVkgB5ilc-6</bpmn:outgoing>
+      <bpmn:outgoing>T_3m5fmwSW-BjU6WBglm-232</bpmn:outgoing>
+      <bpmn:incoming>syn_flow_isplit_1</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id='syn_isplit_2_id_95T2qpr_bdB_fHr1BSOe-13'>
+      <bpmn:outgoing>K3s5KRsgfbHYeBIzRgwy-1</bpmn:outgoing>
+      <bpmn:outgoing>eMG4RQ3z-A5OfSXCJ-Oj-59</bpmn:outgoing>
+      <bpmn:incoming>syn_flow_isplit_2</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id='syn_isplit_3_AfiBWiJvVULpi_bI7-Tp-24'>
+      <bpmn:outgoing>xFkPp5M3zKD4SYzTMsLY-24</bpmn:outgoing>
+      <bpmn:outgoing>AfiBWiJvVULpi_bI7-Tp-25</bpmn:outgoing>
+      <bpmn:incoming>syn_flow_isplit_3</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id='syn_fork_4__natyxWOobNJQucEAHAE-2'>
+      <bpmn:outgoing>AfiBWiJvVULpi_bI7-Tp-3</bpmn:outgoing>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-6</bpmn:outgoing>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-8</bpmn:outgoing>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-9</bpmn:outgoing>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-11</bpmn:outgoing>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-12</bpmn:outgoing>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-13</bpmn:outgoing>
+      <bpmn:outgoing>BgVumuXLWf0v4Xr0rbFz-14</bpmn:outgoing>
+      <bpmn:incoming>syn_flow_split_4</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id='T_3m5fmwSW-BjU6WBglm-233' sourceRef='T_3m5fmwSW-BjU6WBglm-3' targetRef='T_3m5fmwSW-BjU6WBglm-4'/>
+    <bpmn:sequenceFlow id='T_3m5fmwSW-BjU6WBglm-234' sourceRef='T_3m5fmwSW-BjU6WBglm-3' targetRef='T_3m5fmwSW-BjU6WBglm-2'/>
+    <bpmn:sequenceFlow id='Hf2ZKQdA3xv8BROUWDP2-19' sourceRef='Hf2ZKQdA3xv8BROUWDP2-23' targetRef='Hf2ZKQdA3xv8BROUWDP2-17'/>
+    <bpmn:sequenceFlow id='Hf2ZKQdA3xv8BROUWDP2-20' sourceRef='Hf2ZKQdA3xv8BROUWDP2-23' targetRef='Hf2ZKQdA3xv8BROUWDP2-16'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-24' sourceRef='syn_isplit_3_AfiBWiJvVULpi_bI7-Tp-24' targetRef='AfiBWiJvVULpi_bI7-Tp-34'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-29' sourceRef='xFkPp5M3zKD4SYzTMsLY-26' targetRef='xFkPp5M3zKD4SYzTMsLY-28'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-22' sourceRef='AfiBWiJvVULpi_bI7-Tp-34' targetRef='xFkPp5M3zKD4SYzTMsLY-5'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-32' sourceRef='xFkPp5M3zKD4SYzTMsLY-28' targetRef='xFkPp5M3zKD4SYzTMsLY-31'/>
+    <bpmn:sequenceFlow id='id_95T2qpr_bdB_fHr1BSOe-93' sourceRef='_natyxWOobNJQucEAHAE-7' targetRef='id_95T2qpr_bdB_fHr1BSOe-74'/>
+    <bpmn:sequenceFlow id='vR6Sqzw8GcYJVkgB5ilc-6' sourceRef='syn_isplit_1_id_95T2qpr_bdB_fHr1BSOe-74' targetRef='id_95T2qpr_bdB_fHr1BSOe-74'/>
+    <bpmn:association id='GPZg6U0mXFa9kcMsSSgN-1' sourceRef='GPZg6U0mXFa9kcMsSSgN-6' targetRef='vR6Sqzw8GcYJVkgB5ilc-13'/>
+    <bpmn:sequenceFlow id='K3s5KRsgfbHYeBIzRgwy-1' sourceRef='syn_isplit_2_id_95T2qpr_bdB_fHr1BSOe-13' targetRef='GPZg6U0mXFa9kcMsSSgN-6'/>
+    <bpmn:sequenceFlow id='id_3pW4crKo2uM4s5AoE1cD-2' sourceRef='_natyxWOobNJQucEAHAE-5' targetRef='Yb3Uxd6FhWQBxp5jrYgA-3'/>
+    <bpmn:sequenceFlow id='TR1-OwJ4w3rAHMMEg73Q-10' sourceRef='TR1-OwJ4w3rAHMMEg73Q-2' targetRef='GblVOnGCP5eaobR45seR-1'/>
+    <bpmn:sequenceFlow id='zBaqwaSJ1m1VU1vwOP7i-5' sourceRef='zBaqwaSJ1m1VU1vwOP7i-2' targetRef='id_95T2qpr_bdB_fHr1BSOe-7'/>
+    <bpmn:sequenceFlow id='T_3m5fmwSW-BjU6WBglm-232' sourceRef='syn_isplit_1_id_95T2qpr_bdB_fHr1BSOe-74' targetRef='T_3m5fmwSW-BjU6WBglm-3'/>
+    <bpmn:sequenceFlow id='Hf2ZKQdA3xv8BROUWDP2-24' sourceRef='Hf2ZKQdA3xv8BROUWDP2-14' targetRef='Hf2ZKQdA3xv8BROUWDP2-23'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-18' sourceRef='Hf2ZKQdA3xv8BROUWDP2-13' targetRef='Hf2ZKQdA3xv8BROUWDP2-14'/>
+    <bpmn:sequenceFlow id='t-DyxCg9REIbWnixEzsH-1' sourceRef='ux5EftYqiHLUuLAUo58e-14' targetRef='ux5EftYqiHLUuLAUo58e-26'/>
+    <bpmn:sequenceFlow id='eMG4RQ3z-A5OfSXCJ-Oj-59' sourceRef='syn_isplit_2_id_95T2qpr_bdB_fHr1BSOe-13' targetRef='eMG4RQ3z-A5OfSXCJ-Oj-57'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-27' sourceRef='id_95T2qpr_bdB_fHr1BSOe-17' targetRef='xFkPp5M3zKD4SYzTMsLY-26'/>
+    <bpmn:sequenceFlow id='AfiBWiJvVULpi_bI7-Tp-14' sourceRef='ux5EftYqiHLUuLAUo58e-19' targetRef='_natyxWOobNJQucEAHAE-4'/>
+    <bpmn:sequenceFlow id='AfiBWiJvVULpi_bI7-Tp-18' sourceRef='ux5EftYqiHLUuLAUo58e-23' targetRef='_natyxWOobNJQucEAHAE-4'/>
+    <bpmn:sequenceFlow id='AfiBWiJvVULpi_bI7-Tp-3' sourceRef='syn_fork_4__natyxWOobNJQucEAHAE-2' targetRef='ux5EftYqiHLUuLAUo58e-17'/>
+    <bpmn:sequenceFlow id='AfiBWiJvVULpi_bI7-Tp-17' sourceRef='ux5EftYqiHLUuLAUo58e-22' targetRef='_natyxWOobNJQucEAHAE-4'/>
+    <bpmn:sequenceFlow id='AfiBWiJvVULpi_bI7-Tp-19' sourceRef='ux5EftYqiHLUuLAUo58e-24' targetRef='_natyxWOobNJQucEAHAE-4'/>
+    <bpmn:sequenceFlow id='AfiBWiJvVULpi_bI7-Tp-20' sourceRef='ux5EftYqiHLUuLAUo58e-25' targetRef='_natyxWOobNJQucEAHAE-4'/>
+    <bpmn:sequenceFlow id='id_7Ihu8IjUHvZkqYCl5e5e-16' sourceRef='ux5EftYqiHLUuLAUo58e-12' targetRef='ux5EftYqiHLUuLAUo58e-14'/>
+    <bpmn:sequenceFlow id='AfiBWiJvVULpi_bI7-Tp-25' sourceRef='syn_isplit_3_AfiBWiJvVULpi_bI7-Tp-24' targetRef='AfiBWiJvVULpi_bI7-Tp-24'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-17' sourceRef='ux5EftYqiHLUuLAUo58e-7' targetRef='AfiBWiJvVULpi_bI7-Tp-24'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-18' sourceRef='id_95T2qpr_bdB_fHr1BSOe-16' targetRef='AfiBWiJvVULpi_bI7-Tp-24'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-19' sourceRef='ux5EftYqiHLUuLAUo58e-6' targetRef='AfiBWiJvVULpi_bI7-Tp-24'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-20' sourceRef='id_95T2qpr_bdB_fHr1BSOe-18' targetRef='AfiBWiJvVULpi_bI7-Tp-24'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-34' sourceRef='id_95T2qpr_bdB_fHr1BSOe-19' targetRef='id_95T2qpr_bdB_fHr1BSOe-31'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-36' sourceRef='Yb3Uxd6FhWQBxp5jrYgA-3' targetRef='id_95T2qpr_bdB_fHr1BSOe-40'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-38' sourceRef='id_95T2qpr_bdB_fHr1BSOe-40' targetRef='id_95T2qpr_bdB_fHr1BSOe-86'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-39' sourceRef='id_95T2qpr_bdB_fHr1BSOe-40' targetRef='id_95T2qpr_bdB_fHr1BSOe-81'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-239' sourceRef='eMG4RQ3z-A5OfSXCJ-Oj-57' targetRef='ux5EftYqiHLUuLAUo58e-7'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-240' sourceRef='eMG4RQ3z-A5OfSXCJ-Oj-57' targetRef='id_95T2qpr_bdB_fHr1BSOe-16'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-241' sourceRef='eMG4RQ3z-A5OfSXCJ-Oj-57' targetRef='ux5EftYqiHLUuLAUo58e-6'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-242' sourceRef='eMG4RQ3z-A5OfSXCJ-Oj-57' targetRef='id_95T2qpr_bdB_fHr1BSOe-18'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-243' sourceRef='eMG4RQ3z-A5OfSXCJ-Oj-57' targetRef='Xe1-jS0fRj-o8fzYC13A-63'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-244' sourceRef='eMG4RQ3z-A5OfSXCJ-Oj-57' targetRef='id_95T2qpr_bdB_fHr1BSOe-17'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-247' sourceRef='eMG4RQ3z-A5OfSXCJ-Oj-57' targetRef='id_95T2qpr_bdB_fHr1BSOe-19'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-249' sourceRef='eMG4RQ3z-A5OfSXCJ-Oj-57' targetRef='ux5EftYqiHLUuLAUo58e-11'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-250' sourceRef='eMG4RQ3z-A5OfSXCJ-Oj-57' targetRef='ux5EftYqiHLUuLAUo58e-12'/>
+    <bpmn:sequenceFlow id='xFkPp5M3zKD4SYzTMsLY-251' sourceRef='eMG4RQ3z-A5OfSXCJ-Oj-57' targetRef='ux5EftYqiHLUuLAUo58e-13'/>
+    <bpmn:sequenceFlow id='AfiBWiJvVULpi_bI7-Tp-21' sourceRef='_natyxWOobNJQucEAHAE-4' targetRef='BgVumuXLWf0v4Xr0rbFz-2'/>
+    <bpmn:sequenceFlow id='_natyxWOobNJQucEAHAE-9' sourceRef='id_95T2qpr_bdB_fHr1BSOe-56' targetRef='_natyxWOobNJQucEAHAE-7'/>
+    <bpmn:sequenceFlow id='_natyxWOobNJQucEAHAE-10' sourceRef='_natyxWOobNJQucEAHAE-7' targetRef='GPZg6U0mXFa9kcMsSSgN-3'/>
+    <bpmn:sequenceFlow id='_natyxWOobNJQucEAHAE-14' sourceRef='ux5EftYqiHLUuLAUo58e-17' targetRef='_natyxWOobNJQucEAHAE-4'/>
+    <bpmn:sequenceFlow id='id_7Ihu8IjUHvZkqYCl5e5e-15' sourceRef='ux5EftYqiHLUuLAUo58e-13' targetRef='ux5EftYqiHLUuLAUo58e-14'/>
+    <bpmn:sequenceFlow id='id_7l32CMybQGAGzA7F6XxO-2' sourceRef='TR1-OwJ4w3rAHMMEg73Q-1' targetRef='id_7l32CMybQGAGzA7F6XxO-1'/>
+    <bpmn:sequenceFlow id='TR1-OwJ4w3rAHMMEg73Q-3' sourceRef='id_95T2qpr_bdB_fHr1BSOe-31' targetRef='TR1-OwJ4w3rAHMMEg73Q-1'/>
+    <bpmn:sequenceFlow id='MtW7TlwyilQuHVQOJi66-13' sourceRef='id_95T2qpr_bdB_fHr1BSOe-90' targetRef='ux5EftYqiHLUuLAUo58e-14'/>
+    <bpmn:association id='_0Se53VJJEQ7VVAzxL6d-2' sourceRef='id_7l32CMybQGAGzA7F6XxO-1' targetRef='Yb3Uxd6FhWQBxp5jrYgA-3'/>
+    <bpmn:association id='C-mqvkpRgGDrjUF-Eks6-2' sourceRef='T39CjOucMUAb6CcNUWKf-1' targetRef='C-mqvkpRgGDrjUF-Eks6-1'/>
+    <bpmn:sequenceFlow id='ywSE4qTThs3-Gb8Ta71V-16' sourceRef='IEoV7ImQ8Nmd_irDuSAv-3' targetRef='IEoV7ImQ8Nmd_irDuSAv-5'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-8' sourceRef='IEoV7ImQ8Nmd_irDuSAv-5' targetRef='IEoV7ImQ8Nmd_irDuSAv-6'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-24' sourceRef='IEoV7ImQ8Nmd_irDuSAv-6' targetRef='IEoV7ImQ8Nmd_irDuSAv-15'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-25' sourceRef='T_3m5fmwSW-BjU6WBglm-223' targetRef='IEoV7ImQ8Nmd_irDuSAv-12'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-27' sourceRef='IEoV7ImQ8Nmd_irDuSAv-12' targetRef='ywSE4qTThs3-Gb8Ta71V-3'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-31' sourceRef='T39CjOucMUAb6CcNUWKf-1' targetRef='IEoV7ImQ8Nmd_irDuSAv-32'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-33' sourceRef='IEoV7ImQ8Nmd_irDuSAv-30' targetRef='IEoV7ImQ8Nmd_irDuSAv-38'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-39' sourceRef='IEoV7ImQ8Nmd_irDuSAv-38' targetRef='IEoV7ImQ8Nmd_irDuSAv-40'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-42' sourceRef='IEoV7ImQ8Nmd_irDuSAv-38' targetRef='T39CjOucMUAb6CcNUWKf-1'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-43' sourceRef='IEoV7ImQ8Nmd_irDuSAv-6' targetRef='IEoV7ImQ8Nmd_irDuSAv-16'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-45' sourceRef='IEoV7ImQ8Nmd_irDuSAv-22' targetRef='IEoV7ImQ8Nmd_irDuSAv-17'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-47' sourceRef='IEoV7ImQ8Nmd_irDuSAv-17' targetRef='WRc8SP0kT36MRJF_Wele-14'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-49' sourceRef='IEoV7ImQ8Nmd_irDuSAv-16' targetRef='IEoV7ImQ8Nmd_irDuSAv-48'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-50' sourceRef='IEoV7ImQ8Nmd_irDuSAv-48' targetRef='IEoV7ImQ8Nmd_irDuSAv-22'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-51' sourceRef='IEoV7ImQ8Nmd_irDuSAv-48' targetRef='IEoV7ImQ8Nmd_irDuSAv-20'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-52' sourceRef='IEoV7ImQ8Nmd_irDuSAv-20' targetRef='IEoV7ImQ8Nmd_irDuSAv-23'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-64' sourceRef='IEoV7ImQ8Nmd_irDuSAv-61' targetRef='IEoV7ImQ8Nmd_irDuSAv-63'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-70' sourceRef='IEoV7ImQ8Nmd_irDuSAv-63' targetRef='IEoV7ImQ8Nmd_irDuSAv-71'/>
+    <bpmn:sequenceFlow id='T_3m5fmwSW-BjU6WBglm-224' sourceRef='IEoV7ImQ8Nmd_irDuSAv-15' targetRef='T_3m5fmwSW-BjU6WBglm-223'/>
+    <bpmn:sequenceFlow id='T_3m5fmwSW-BjU6WBglm-227' sourceRef='T_3m5fmwSW-BjU6WBglm-223' targetRef='T_3m5fmwSW-BjU6WBglm-221'/>
+    <bpmn:sequenceFlow id='UeVVwcErJcxSzJERRUiJ-6' sourceRef='ywSE4qTThs3-Gb8Ta71V-12' targetRef='ywSE4qTThs3-Gb8Ta71V-19'/>
+    <bpmn:sequenceFlow id='UeVVwcErJcxSzJERRUiJ-3' sourceRef='id_95T2qpr_bdB_fHr1BSOe-7' targetRef='ywSE4qTThs3-Gb8Ta71V-12'/>
+    <bpmn:sequenceFlow id='ywSE4qTThs3-Gb8Ta71V-14' sourceRef='ywSE4qTThs3-Gb8Ta71V-19' targetRef='IEoV7ImQ8Nmd_irDuSAv-3'/>
+    <bpmn:sequenceFlow id='UeVVwcErJcxSzJERRUiJ-7' sourceRef='ywSE4qTThs3-Gb8Ta71V-19' targetRef='id_95T2qpr_bdB_fHr1BSOe-13'/>
+    <bpmn:sequenceFlow id='t-DyxCg9REIbWnixEzsH-2' sourceRef='ux5EftYqiHLUuLAUo58e-26' targetRef='_natyxWOobNJQucEAHAE-2'/>
+    <bpmn:sequenceFlow id='t-DyxCg9REIbWnixEzsH-7' sourceRef='ux5EftYqiHLUuLAUo58e-11' targetRef='ux5EftYqiHLUuLAUo58e-14'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-4' sourceRef='Hf2ZKQdA3xv8BROUWDP2-2' targetRef='_natyxWOobNJQucEAHAE-2'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-5' sourceRef='BgVumuXLWf0v4Xr0rbFz-2' targetRef='Hf2ZKQdA3xv8BROUWDP2-13'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-6' sourceRef='syn_fork_4__natyxWOobNJQucEAHAE-2' targetRef='ux5EftYqiHLUuLAUo58e-19'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-8' sourceRef='syn_fork_4__natyxWOobNJQucEAHAE-2' targetRef='ux5EftYqiHLUuLAUo58e-20'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-9' sourceRef='syn_fork_4__natyxWOobNJQucEAHAE-2' targetRef='ux5EftYqiHLUuLAUo58e-21'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-11' sourceRef='syn_fork_4__natyxWOobNJQucEAHAE-2' targetRef='ux5EftYqiHLUuLAUo58e-22'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-12' sourceRef='syn_fork_4__natyxWOobNJQucEAHAE-2' targetRef='ux5EftYqiHLUuLAUo58e-23'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-13' sourceRef='syn_fork_4__natyxWOobNJQucEAHAE-2' targetRef='ux5EftYqiHLUuLAUo58e-24'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-14' sourceRef='syn_fork_4__natyxWOobNJQucEAHAE-2' targetRef='ux5EftYqiHLUuLAUo58e-25'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-15' sourceRef='ux5EftYqiHLUuLAUo58e-21' targetRef='_natyxWOobNJQucEAHAE-4'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-16' sourceRef='ux5EftYqiHLUuLAUo58e-20' targetRef='_natyxWOobNJQucEAHAE-4'/>
+    <bpmn:sequenceFlow id='BgVumuXLWf0v4Xr0rbFz-19' sourceRef='BgVumuXLWf0v4Xr0rbFz-2' targetRef='id_95T2qpr_bdB_fHr1BSOe-56'/>
+    <bpmn:sequenceFlow id='WRc8SP0kT36MRJF_Wele-4' sourceRef='WRc8SP0kT36MRJF_Wele-7' targetRef='IEoV7ImQ8Nmd_irDuSAv-30'/>
+    <bpmn:sequenceFlow id='WRc8SP0kT36MRJF_Wele-10' sourceRef='IEoV7ImQ8Nmd_irDuSAv-6' targetRef='WRc8SP0kT36MRJF_Wele-3'/>
+    <bpmn:sequenceFlow id='WRc8SP0kT36MRJF_Wele-12' sourceRef='WRc8SP0kT36MRJF_Wele-7' targetRef='WRc8SP0kT36MRJF_Wele-8'/>
+    <bpmn:sequenceFlow id='WRc8SP0kT36MRJF_Wele-17' sourceRef='WRc8SP0kT36MRJF_Wele-14' targetRef='T_3m5fmwSW-BjU6WBglm-1'/>
+    <bpmn:sequenceFlow id='WRc8SP0kT36MRJF_Wele-18' sourceRef='WRc8SP0kT36MRJF_Wele-16' targetRef='T_3m5fmwSW-BjU6WBglm-1'/>
+    <bpmn:sequenceFlow id='WRc8SP0kT36MRJF_Wele-19' sourceRef='IEoV7ImQ8Nmd_irDuSAv-23' targetRef='WRc8SP0kT36MRJF_Wele-16'/>
+    <bpmn:sequenceFlow id='WRc8SP0kT36MRJF_Wele-23' sourceRef='WRc8SP0kT36MRJF_Wele-14' targetRef='IEoV7ImQ8Nmd_irDuSAv-30'/>
+    <bpmn:sequenceFlow id='WRc8SP0kT36MRJF_Wele-25' sourceRef='WRc8SP0kT36MRJF_Wele-16' targetRef='IEoV7ImQ8Nmd_irDuSAv-30'/>
+    <bpmn:sequenceFlow id='IEoV7ImQ8Nmd_irDuSAv-62' sourceRef='IEoV7ImQ8Nmd_irDuSAv-60' targetRef='IEoV7ImQ8Nmd_irDuSAv-61'/>
+    <bpmn:sequenceFlow id='ywSE4qTThs3-Gb8Ta71V-4' sourceRef='T_3m5fmwSW-BjU6WBglm-221' targetRef='ywSE4qTThs3-Gb8Ta71V-3'/>
+    <bpmn:sequenceFlow id='ywSE4qTThs3-Gb8Ta71V-5' sourceRef='ywSE4qTThs3-Gb8Ta71V-3' targetRef='IEoV7ImQ8Nmd_irDuSAv-30'/>
+    <bpmn:sequenceFlow id='ywSE4qTThs3-Gb8Ta71V-9' sourceRef='WRc8SP0kT36MRJF_Wele-3' targetRef='WRc8SP0kT36MRJF_Wele-7'/>
+    <bpmn:sequenceFlow id='syn_flow_end_5' sourceRef='id_7l32CMybQGAGzA7F6XxO-1' targetRef='syn_end_5'/>
+    <bpmn:sequenceFlow id='syn_flow_isplit_1' sourceRef='id_95T2qpr_bdB_fHr1BSOe-74' targetRef='syn_isplit_1_id_95T2qpr_bdB_fHr1BSOe-74'/>
+    <bpmn:sequenceFlow id='syn_flow_isplit_2' sourceRef='id_95T2qpr_bdB_fHr1BSOe-13' targetRef='syn_isplit_2_id_95T2qpr_bdB_fHr1BSOe-13'/>
+    <bpmn:sequenceFlow id='syn_flow_isplit_3' sourceRef='AfiBWiJvVULpi_bI7-Tp-24' targetRef='syn_isplit_3_AfiBWiJvVULpi_bI7-Tp-24'/>
+    <bpmn:sequenceFlow id='syn_flow_split_4' sourceRef='_natyxWOobNJQucEAHAE-2' targetRef='syn_fork_4__natyxWOobNJQucEAHAE-2'/>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id='BPMNDiagram_1'>
+    <bpmndi:BPMNPlane id='BPMNPlane_1' bpmnElement='Process_1'>
+      <bpmndi:BPMNShape id='vAyut_De6IwCnGqPx89W-84_di' bpmnElement='vAyut_De6IwCnGqPx89W-84' isHorizontal='true'>
+        <dc:Bounds x='120.8632' y='212.0' width='2134.0' height='20.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='T_3m5fmwSW-BjU6WBglm-231_di' bpmnElement='T_3m5fmwSW-BjU6WBglm-231' isHorizontal='true'>
+        <dc:Bounds x='120.8632' y='243.0' width='2134.0' height='20.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='vAyut_De6IwCnGqPx89W-19_di' bpmnElement='vAyut_De6IwCnGqPx89W-19' isHorizontal='true'>
+        <dc:Bounds x='120.8632' y='280.0' width='2140.0' height='1990.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='vAyut_De6IwCnGqPx89W-20_di' bpmnElement='vAyut_De6IwCnGqPx89W-20' isHorizontal='true'>
+        <dc:Bounds x='120.8632' y='300.0' width='2140.0' height='120.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='vAyut_De6IwCnGqPx89W-25_di' bpmnElement='vAyut_De6IwCnGqPx89W-25' isHorizontal='true'>
+        <dc:Bounds x='120.8632' y='420.0' width='2140.0' height='290.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='vAyut_De6IwCnGqPx89W-26_di' bpmnElement='vAyut_De6IwCnGqPx89W-26' isHorizontal='true'>
+        <dc:Bounds x='120.8632' y='710.0' width='2140.0' height='1560.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-24_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-24' isHorizontal='true'>
+        <dc:Bounds x='120.8632' y='178.0' width='2134.0' height='20.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='xFkPp5M3zKD4SYzTMsLY-5_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-5'>
+        <dc:Bounds x='1117.8632' y='377.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='xFkPp5M3zKD4SYzTMsLY-31_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-31'>
+        <dc:Bounds x='1297.8632' y='377.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='_natyxWOobNJQucEAHAE-5_di' bpmnElement='_natyxWOobNJQucEAHAE-5'>
+        <dc:Bounds x='1574.8632' y='378.5' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='zBaqwaSJ1m1VU1vwOP7i-2_di' bpmnElement='zBaqwaSJ1m1VU1vwOP7i-2'>
+        <dc:Bounds x='286.8632' y='374.5' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='T_3m5fmwSW-BjU6WBglm-2_di' bpmnElement='T_3m5fmwSW-BjU6WBglm-2'>
+        <dc:Bounds x='1816.8632' y='325.13' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='T_3m5fmwSW-BjU6WBglm-3_di' bpmnElement='T_3m5fmwSW-BjU6WBglm-3'>
+        <dc:Bounds x='1868.8632' y='365.63' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='T_3m5fmwSW-BjU6WBglm-4_di' bpmnElement='T_3m5fmwSW-BjU6WBglm-4'>
+        <dc:Bounds x='1943.8632' y='325.13' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='GblVOnGCP5eaobR45seR-1_di' bpmnElement='GblVOnGCP5eaobR45seR-1'>
+        <dc:Bounds x='1477.8632' y='376.5' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='Hf2ZKQdA3xv8BROUWDP2-16_di' bpmnElement='Hf2ZKQdA3xv8BROUWDP2-16'>
+        <dc:Bounds x='1664.8632' y='325.76' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='Hf2ZKQdA3xv8BROUWDP2-17_di' bpmnElement='Hf2ZKQdA3xv8BROUWDP2-17'>
+        <dc:Bounds x='1791.8632' y='325.76' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='Hf2ZKQdA3xv8BROUWDP2-23_di' bpmnElement='Hf2ZKQdA3xv8BROUWDP2-23'>
+        <dc:Bounds x='1716.8632' y='366.63' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='AfiBWiJvVULpi_bI7-Tp-34_di' bpmnElement='AfiBWiJvVULpi_bI7-Tp-34'>
+        <dc:Bounds x='1055.8632' y='640.0' width='160.0' height='44.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='xFkPp5M3zKD4SYzTMsLY-28_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-28'>
+        <dc:Bounds x='1235.8632' y='640.0' width='160.0' height='44.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-74_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-74'>
+        <dc:Bounds x='1819.8632' y='640.0' width='160.0' height='44.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='vR6Sqzw8GcYJVkgB5ilc-13_di' bpmnElement='vR6Sqzw8GcYJVkgB5ilc-13'>
+        <dc:Bounds x='475.3632' y='544.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='vR6Sqzw8GcYJVkgB5ilc-156_di' bpmnElement='vR6Sqzw8GcYJVkgB5ilc-156'>
+        <dc:Bounds x='1360.8632' y='566.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='vR6Sqzw8GcYJVkgB5ilc-154_di' bpmnElement='vR6Sqzw8GcYJVkgB5ilc-154'>
+        <dc:Bounds x='1180.8632' y='566.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-102_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-102'>
+        <dc:Bounds x='1936.8632' y='566.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='GPZg6U0mXFa9kcMsSSgN-6_di' bpmnElement='GPZg6U0mXFa9kcMsSSgN-6'>
+        <dc:Bounds x='420.3632' y='640.0' width='160.0' height='44.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='TR1-OwJ4w3rAHMMEg73Q-2_di' bpmnElement='TR1-OwJ4w3rAHMMEg73Q-2'>
+        <dc:Bounds x='1415.8632' y='640.0' width='160.0' height='44.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='TR1-OwJ4w3rAHMMEg73Q-5_di' bpmnElement='TR1-OwJ4w3rAHMMEg73Q-5'>
+        <dc:Bounds x='1538.3632' y='566.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='Hf2ZKQdA3xv8BROUWDP2-14_di' bpmnElement='Hf2ZKQdA3xv8BROUWDP2-14'>
+        <dc:Bounds x='1653.8632' y='640.0' width='160.0' height='44.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='vfR5h07RtAKOr1QEzBwR-2_di' bpmnElement='vfR5h07RtAKOr1QEzBwR-2'>
+        <dc:Bounds x='1785.8632' y='566.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-60_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-60'>
+        <dc:Bounds x='498.8632' y='1700.0' width='630.0' height='360.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-7_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-7'>
+        <dc:Bounds x='286.8632' y='740.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-13_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-13'>
+        <dc:Bounds x='434.8632' y='1042.12' width='131.0' height='63.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-16_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-16'>
+        <dc:Bounds x='645.8632' y='905.62' width='160.0' height='57.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-19_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-19'>
+        <dc:Bounds x='645.8632' y='1113.38' width='160.0' height='61.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-18_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-18'>
+        <dc:Bounds x='645.8632' y='776.5' width='160.0' height='48.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-17_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-17'>
+        <dc:Bounds x='645.8632' y='1044.75' width='160.0' height='57.75'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-31_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-31'>
+        <dc:Bounds x='872.8632' y='1105.38' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-40_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-40'>
+        <dc:Bounds x='1630.3632' y='971.13' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-81_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-81'>
+        <dc:Bounds x='1696.3632' y='944.75' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-86_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-86'>
+        <dc:Bounds x='1697.3632' y='1020.25' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='Yb3Uxd6FhWQBxp5jrYgA-3_di' bpmnElement='Yb3Uxd6FhWQBxp5jrYgA-3'>
+        <dc:Bounds x='1575.8632' y='978.13' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='eMG4RQ3z-A5OfSXCJ-Oj-57_di' bpmnElement='eMG4RQ3z-A5OfSXCJ-Oj-57'>
+        <dc:Bounds x='579.8632' y='1048.62' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-6_di' bpmnElement='ux5EftYqiHLUuLAUo58e-6'>
+        <dc:Bounds x='645.8632' y='834.5' width='160.0' height='64.5'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-7_di' bpmnElement='ux5EftYqiHLUuLAUo58e-7'>
+        <dc:Bounds x='645.8632' y='973.75' width='160.0' height='62.5'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-90_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-90'>
+        <dc:Bounds x='856.8632' y='1349.62' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-26_di' bpmnElement='ux5EftYqiHLUuLAUo58e-26'>
+        <dc:Bounds x='1127.8632' y='1352.37' width='136.0' height='94.5'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-17_di' bpmnElement='ux5EftYqiHLUuLAUo58e-17'>
+        <dc:Bounds x='1415.8632' y='1205.0' width='160.0' height='70.38'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-19_di' bpmnElement='ux5EftYqiHLUuLAUo58e-19'>
+        <dc:Bounds x='1415.8632' y='1282.0' width='160.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-20_di' bpmnElement='ux5EftYqiHLUuLAUo58e-20'>
+        <dc:Bounds x='1415.8632' y='1348.0' width='160.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-21_di' bpmnElement='ux5EftYqiHLUuLAUo58e-21'>
+        <dc:Bounds x='1415.8632' y='1414.0' width='160.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-22_di' bpmnElement='ux5EftYqiHLUuLAUo58e-22'>
+        <dc:Bounds x='1415.8632' y='1484.0' width='160.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-23_di' bpmnElement='ux5EftYqiHLUuLAUo58e-23'>
+        <dc:Bounds x='1415.8632' y='1553.0' width='160.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-24_di' bpmnElement='ux5EftYqiHLUuLAUo58e-24'>
+        <dc:Bounds x='1415.8632' y='1622.0' width='160.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-25_di' bpmnElement='ux5EftYqiHLUuLAUo58e-25'>
+        <dc:Bounds x='1415.8632' y='1690.0' width='160.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-11_di' bpmnElement='ux5EftYqiHLUuLAUo58e-11'>
+        <dc:Bounds x='645.8632' y='1246.0' width='160.0' height='64.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-12_di' bpmnElement='ux5EftYqiHLUuLAUo58e-12'>
+        <dc:Bounds x='645.8632' y='1319.5' width='160.0' height='55.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-13_di' bpmnElement='ux5EftYqiHLUuLAUo58e-13'>
+        <dc:Bounds x='645.8632' y='1384.62' width='160.0' height='65.38'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ux5EftYqiHLUuLAUo58e-14_di' bpmnElement='ux5EftYqiHLUuLAUo58e-14'>
+        <dc:Bounds x='900.8632' y='1307.5500000000002' width='160.0' height='80.38'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='Xe1-jS0fRj-o8fzYC13A-63_di' bpmnElement='Xe1-jS0fRj-o8fzYC13A-63'>
+        <dc:Bounds x='645.8632' y='723.0' width='160.0' height='45.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='AfiBWiJvVULpi_bI7-Tp-24_di' bpmnElement='AfiBWiJvVULpi_bI7-Tp-24'>
+        <dc:Bounds x='1055.8632' y='844.37' width='160.0' height='45.25'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='xFkPp5M3zKD4SYzTMsLY-26_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-26'>
+        <dc:Bounds x='1235.8632' y='1050.99' width='160.0' height='45.25'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_95T2qpr_bdB_fHr1BSOe-56_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-56'>
+        <dc:Bounds x='1823.8632' y='1316.49' width='160.0' height='48.51'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='GPZg6U0mXFa9kcMsSSgN-3_di' bpmnElement='GPZg6U0mXFa9kcMsSSgN-3'>
+        <dc:Bounds x='1957.8632' y='1206.5' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='_natyxWOobNJQucEAHAE-1_di' bpmnElement='_natyxWOobNJQucEAHAE-1'>
+        <dc:Bounds x='565.8632' y='902.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='_natyxWOobNJQucEAHAE-2_di' bpmnElement='_natyxWOobNJQucEAHAE-2'>
+        <dc:Bounds x='1329.8632' y='1322.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='_natyxWOobNJQucEAHAE-4_di' bpmnElement='_natyxWOobNJQucEAHAE-4'>
+        <dc:Bounds x='1578.8632' y='1322.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='_natyxWOobNJQucEAHAE-7_di' bpmnElement='_natyxWOobNJQucEAHAE-7'>
+        <dc:Bounds x='1867.8632' y='1199.5' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='TR1-OwJ4w3rAHMMEg73Q-1_di' bpmnElement='TR1-OwJ4w3rAHMMEg73Q-1'>
+        <dc:Bounds x='1415.8632' y='1100.63' width='160.0' height='45.25'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='id_7l32CMybQGAGzA7F6XxO-1_di' bpmnElement='id_7l32CMybQGAGzA7F6XxO-1'>
+        <dc:Bounds x='1470.8632' y='971.13' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='T39CjOucMUAb6CcNUWKf-1_di' bpmnElement='T39CjOucMUAb6CcNUWKf-1'>
+        <dc:Bounds x='1466.8632' y='1835.76' width='130.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='C-mqvkpRgGDrjUF-Eks6-1_di' bpmnElement='C-mqvkpRgGDrjUF-Eks6-1'>
+        <dc:Bounds x='1636.8632' y='1785.0' width='130.0' height='42.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-3_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-3'>
+        <dc:Bounds x='286.8632' y='1766.5' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-5_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-5'>
+        <dc:Bounds x='244.8632' y='1834.75' width='120.0' height='60.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-6_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-6'>
+        <dc:Bounds x='445.8632' y='1839.75' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-12_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-12'>
+        <dc:Bounds x='935.8632' y='1714.0' width='175.0' height='54.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-15_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-15'>
+        <dc:Bounds x='510.8632' y='1751.0' width='160.0' height='54.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-16_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-16'>
+        <dc:Bounds x='510.8632' y='1886.51' width='160.0' height='47.49'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-17_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-17'>
+        <dc:Bounds x='935.8632' y='1862.51' width='175.0' height='94.74'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-20_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-20'>
+        <dc:Bounds x='750.8632' y='1990.0' width='160.0' height='54.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-22_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-22'>
+        <dc:Bounds x='750.8632' y='1886.51' width='159.0' height='47.49'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-23_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-23'>
+        <dc:Bounds x='935.8632' y='1990.0' width='175.0' height='54.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-30_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-30'>
+        <dc:Bounds x='1281.8632' y='1840.76' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-32_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-32'>
+        <dc:Bounds x='1638.8632' y='1847.76' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-1_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-1'>
+        <dc:Bounds x='863.8632' y='727.5' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-36_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-36'>
+        <dc:Bounds x='957.8632' y='849.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-38_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-38'>
+        <dc:Bounds x='1372.8632' y='1840.76' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-40_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-40'>
+        <dc:Bounds x='1379.8632' y='1798.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-48_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-48'>
+        <dc:Bounds x='684.3632' y='1885.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-61_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-61'>
+        <dc:Bounds x='510.8632' y='2168.0' width='160.0' height='74.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-63_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-63'>
+        <dc:Bounds x='750.8632' y='2168.0' width='160.0' height='74.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-66_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-66'>
+        <dc:Bounds x='958.8632' y='1055.75' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='IEoV7ImQ8Nmd_irDuSAv-71_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-71'>
+        <dc:Bounds x='962.8632' y='2187.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='T_3m5fmwSW-BjU6WBglm-1_di' bpmnElement='T_3m5fmwSW-BjU6WBglm-1'>
+        <dc:Bounds x='1146.8632' y='1950.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='T_3m5fmwSW-BjU6WBglm-221_di' bpmnElement='T_3m5fmwSW-BjU6WBglm-221'>
+        <dc:Bounds x='935.8632' y='1774.5' width='175.0' height='78.5'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='T_3m5fmwSW-BjU6WBglm-223_di' bpmnElement='T_3m5fmwSW-BjU6WBglm-223'>
+        <dc:Bounds x='682.3632' y='1753.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='Hf2ZKQdA3xv8BROUWDP2-2_di' bpmnElement='Hf2ZKQdA3xv8BROUWDP2-2'>
+        <dc:Bounds x='1127.8632' y='1251.0' width='136.0' height='94.5'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='Hf2ZKQdA3xv8BROUWDP2-13_di' bpmnElement='Hf2ZKQdA3xv8BROUWDP2-13'>
+        <dc:Bounds x='1688.8632' y='1099.0' width='160.0' height='48.51'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='BgVumuXLWf0v4Xr0rbFz-2_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-2'>
+        <dc:Bounds x='1743.8632' y='1321.62' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WRc8SP0kT36MRJF_Wele-3_di' bpmnElement='WRc8SP0kT36MRJF_Wele-3'>
+        <dc:Bounds x='510.8632' y='2070.51' width='160.0' height='65.49'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WRc8SP0kT36MRJF_Wele-7_di' bpmnElement='WRc8SP0kT36MRJF_Wele-7'>
+        <dc:Bounds x='688.3632' y='2078.75' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WRc8SP0kT36MRJF_Wele-8_di' bpmnElement='WRc8SP0kT36MRJF_Wele-8'>
+        <dc:Bounds x='695.3632' y='2135.0' width='36.0' height='36.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WRc8SP0kT36MRJF_Wele-14_di' bpmnElement='WRc8SP0kT36MRJF_Wele-14'>
+        <dc:Bounds x='1139.8632' y='1885.25' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='WRc8SP0kT36MRJF_Wele-16_di' bpmnElement='WRc8SP0kT36MRJF_Wele-16'>
+        <dc:Bounds x='1139.8632' y='1992.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ywSE4qTThs3-Gb8Ta71V-3_di' bpmnElement='ywSE4qTThs3-Gb8Ta71V-3'>
+        <dc:Bounds x='1139.8632' y='1753.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ywSE4qTThs3-Gb8Ta71V-12_di' bpmnElement='ywSE4qTThs3-Gb8Ta71V-12'>
+        <dc:Bounds x='244.8632' y='905.62' width='120.0' height='41.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='ywSE4qTThs3-Gb8Ta71V-19_di' bpmnElement='ywSE4qTThs3-Gb8Ta71V-19'>
+        <dc:Bounds x='279.8632' y='1048.62' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='syn_end_5_di' bpmnElement='syn_end_5'>
+        <dc:Bounds x='1544.8632' y='978.13' width='36' height='36'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='syn_isplit_1_id_95T2qpr_bdB_fHr1BSOe-74_di' bpmnElement='syn_isplit_1_id_95T2qpr_bdB_fHr1BSOe-74'>
+        <dc:Bounds x='1999.8632' y='644.0' width='36' height='36'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='syn_isplit_2_id_95T2qpr_bdB_fHr1BSOe-13_di' bpmnElement='syn_isplit_2_id_95T2qpr_bdB_fHr1BSOe-13'>
+        <dc:Bounds x='585.8632' y='1055.62' width='36' height='36'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='syn_isplit_3_AfiBWiJvVULpi_bI7-Tp-24_di' bpmnElement='syn_isplit_3_AfiBWiJvVULpi_bI7-Tp-24'>
+        <dc:Bounds x='1235.8632' y='848.995' width='36' height='36'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id='syn_fork_4__natyxWOobNJQucEAHAE-2_di' bpmnElement='syn_fork_4__natyxWOobNJQucEAHAE-2'>
+        <dc:Bounds x='1389.8632' y='1322.0' width='50.0' height='50.0'/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id='T_3m5fmwSW-BjU6WBglm-233_di' bpmnElement='T_3m5fmwSW-BjU6WBglm-233'>
+        <di:waypoint x='1945.8632' y='183.13'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='T_3m5fmwSW-BjU6WBglm-234_di' bpmnElement='T_3m5fmwSW-BjU6WBglm-234'>
+        <di:waypoint x='1818.8632' y='183.13'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='Hf2ZKQdA3xv8BROUWDP2-19_di' bpmnElement='Hf2ZKQdA3xv8BROUWDP2-19'>
+        <di:waypoint x='1793.8632' y='183.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='Hf2ZKQdA3xv8BROUWDP2-20_di' bpmnElement='Hf2ZKQdA3xv8BROUWDP2-20'>
+        <di:waypoint x='1666.8632' y='183.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-24_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-24'>
+        <di:waypoint x='1253.8632' y='866.995'/>
+        <di:waypoint x='1135.8632' y='662.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-29_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-29'>
+        <di:waypoint x='1315.8632' y='1073.615'/>
+        <di:waypoint x='1315.8632' y='662.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-22_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-22'>
+        <di:waypoint x='1135.8632' y='662.0'/>
+        <di:waypoint x='1135.8632' y='395.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-32_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-32'>
+        <di:waypoint x='1315.8632' y='662.0'/>
+        <di:waypoint x='1315.8632' y='395.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='id_95T2qpr_bdB_fHr1BSOe-93_di' bpmnElement='id_95T2qpr_bdB_fHr1BSOe-93'>
+        <di:waypoint x='1892.8632' y='1224.5'/>
+        <di:waypoint x='1899.8632' y='662.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='vR6Sqzw8GcYJVkgB5ilc-6_di' bpmnElement='vR6Sqzw8GcYJVkgB5ilc-6'>
+        <di:waypoint x='2017.8632' y='662.0'/>
+        <di:waypoint x='1899.8632' y='662.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='GPZg6U0mXFa9kcMsSSgN-1_di' bpmnElement='GPZg6U0mXFa9kcMsSSgN-1'>
+        <di:waypoint x='500.3632' y='662.0'/>
+        <di:waypoint x='500.3632' y='569.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='K3s5KRsgfbHYeBIzRgwy-1_di' bpmnElement='K3s5KRsgfbHYeBIzRgwy-1'>
+        <di:waypoint x='603.8632' y='1073.62'/>
+        <di:waypoint x='500.3632' y='662.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='id_3pW4crKo2uM4s5AoE1cD-2_di' bpmnElement='id_3pW4crKo2uM4s5AoE1cD-2'>
+        <di:waypoint x='1592.8632' y='396.5'/>
+        <di:waypoint x='1593.8632' y='996.13'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='TR1-OwJ4w3rAHMMEg73Q-10_di' bpmnElement='TR1-OwJ4w3rAHMMEg73Q-10'>
+        <di:waypoint x='1495.8632' y='662.0'/>
+        <di:waypoint x='1495.8632' y='394.5'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='zBaqwaSJ1m1VU1vwOP7i-5_di' bpmnElement='zBaqwaSJ1m1VU1vwOP7i-5'>
+        <di:waypoint x='304.8632' y='392.5'/>
+        <di:waypoint x='304.8632' y='758.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='T_3m5fmwSW-BjU6WBglm-232_di' bpmnElement='T_3m5fmwSW-BjU6WBglm-232'>
+        <di:waypoint x='2017.8632' y='662.0'/>
+        <di:waypoint x='1893.8632' y='390.63'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='Hf2ZKQdA3xv8BROUWDP2-24_di' bpmnElement='Hf2ZKQdA3xv8BROUWDP2-24'>
+        <di:waypoint x='1733.8632' y='662.0'/>
+        <di:waypoint x='1741.8632' y='391.63'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-18_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-18'>
+        <di:waypoint x='1768.8632' y='1123.255'/>
+        <di:waypoint x='1733.8632' y='662.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='t-DyxCg9REIbWnixEzsH-1_di' bpmnElement='t-DyxCg9REIbWnixEzsH-1'>
+        <di:waypoint x='1068.8632' y='810.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='eMG4RQ3z-A5OfSXCJ-Oj-59_di' bpmnElement='eMG4RQ3z-A5OfSXCJ-Oj-59'>
+        <di:waypoint x='603.8632' y='1073.62'/>
+        <di:waypoint x='604.8632' y='1073.62'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-27_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-27'>
+        <di:waypoint x='725.8632' y='1073.625'/>
+        <di:waypoint x='1315.8632' y='1073.615'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='AfiBWiJvVULpi_bI7-Tp-14_di' bpmnElement='AfiBWiJvVULpi_bI7-Tp-14'>
+        <di:waypoint x='1495.8632' y='1312.0'/>
+        <di:waypoint x='1603.8632' y='1347.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='AfiBWiJvVULpi_bI7-Tp-18_di' bpmnElement='AfiBWiJvVULpi_bI7-Tp-18'>
+        <di:waypoint x='1495.8632' y='1583.0'/>
+        <di:waypoint x='1603.8632' y='1347.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='AfiBWiJvVULpi_bI7-Tp-3_di' bpmnElement='AfiBWiJvVULpi_bI7-Tp-3'>
+        <di:waypoint x='1338.8632' y='640.0'/>
+        <di:waypoint x='1399.8632' y='640.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='AfiBWiJvVULpi_bI7-Tp-17_di' bpmnElement='AfiBWiJvVULpi_bI7-Tp-17'>
+        <di:waypoint x='1495.8632' y='1514.0'/>
+        <di:waypoint x='1603.8632' y='1347.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='AfiBWiJvVULpi_bI7-Tp-19_di' bpmnElement='AfiBWiJvVULpi_bI7-Tp-19'>
+        <di:waypoint x='1495.8632' y='1652.0'/>
+        <di:waypoint x='1603.8632' y='1347.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='AfiBWiJvVULpi_bI7-Tp-20_di' bpmnElement='AfiBWiJvVULpi_bI7-Tp-20'>
+        <di:waypoint x='1495.8632' y='1720.0'/>
+        <di:waypoint x='1603.8632' y='1347.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='id_7Ihu8IjUHvZkqYCl5e5e-16_di' bpmnElement='id_7Ihu8IjUHvZkqYCl5e5e-16'>
+        <di:waypoint x='725.8632' y='1347.0'/>
+        <di:waypoint x='980.8632' y='1347.7400000000002'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='AfiBWiJvVULpi_bI7-Tp-25_di' bpmnElement='AfiBWiJvVULpi_bI7-Tp-25'>
+        <di:waypoint x='1253.8632' y='866.995'/>
+        <di:waypoint x='1135.8632' y='866.995'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-17_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-17'>
+        <di:waypoint x='869.8632' y='405.0'/>
+        <di:waypoint x='869.8632' y='267.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-18_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-18'>
+        <di:waypoint x='869.8632' y='334.0'/>
+        <di:waypoint x='869.8632' y='267.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-19_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-19'>
+        <di:waypoint x='725.8632' y='866.75'/>
+        <di:waypoint x='1135.8632' y='866.995'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-20_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-20'>
+        <di:waypoint x='869.8632' y='201.0'/>
+        <di:waypoint x='869.8632' y='267.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-34_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-34'>
+        <di:waypoint x='809.8632' y='523.0'/>
+        <di:waypoint x='809.8632' y='523.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-36_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-36'>
+        <di:waypoint x='1593.8632' y='996.13'/>
+        <di:waypoint x='1655.3632' y='996.13'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-38_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-38'>
+        <di:waypoint x='1639.3632' y='438.25'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-39_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-39'>
+        <di:waypoint x='1639.3632' y='363.25'/>
+        <di:waypoint x='1668.3632' y='363.25'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-239_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-239'>
+        <di:waypoint x='588.8632' y='405.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-240_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-240'>
+        <di:waypoint x='604.8632' y='1073.62'/>
+        <di:waypoint x='725.8632' y='934.12'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-241_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-241'>
+        <di:waypoint x='604.8632' y='1073.62'/>
+        <di:waypoint x='725.8632' y='866.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-242_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-242'>
+        <di:waypoint x='604.8632' y='1073.62'/>
+        <di:waypoint x='725.8632' y='800.5'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-243_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-243'>
+        <di:waypoint x='604.8632' y='1073.62'/>
+        <di:waypoint x='725.8632' y='745.5'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-244_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-244'>
+        <di:waypoint x='604.8632' y='1073.62'/>
+        <di:waypoint x='725.8632' y='1073.625'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-247_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-247'>
+        <di:waypoint x='604.8632' y='1073.62'/>
+        <di:waypoint x='725.8632' y='1143.88'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-249_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-249'>
+        <di:waypoint x='604.8632' y='1073.62'/>
+        <di:waypoint x='725.8632' y='1278.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-250_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-250'>
+        <di:waypoint x='604.8632' y='1073.62'/>
+        <di:waypoint x='725.8632' y='1347.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='xFkPp5M3zKD4SYzTMsLY-251_di' bpmnElement='xFkPp5M3zKD4SYzTMsLY-251'>
+        <di:waypoint x='604.8632' y='1073.62'/>
+        <di:waypoint x='725.8632' y='1417.31'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='AfiBWiJvVULpi_bI7-Tp-21_di' bpmnElement='AfiBWiJvVULpi_bI7-Tp-21'>
+        <di:waypoint x='1603.8632' y='1347.0'/>
+        <di:waypoint x='1768.8632' y='1346.62'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='_natyxWOobNJQucEAHAE-9_di' bpmnElement='_natyxWOobNJQucEAHAE-9'>
+        <di:waypoint x='1903.8632' y='1340.7450000000001'/>
+        <di:waypoint x='1892.8632' y='1224.5'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='_natyxWOobNJQucEAHAE-10_di' bpmnElement='_natyxWOobNJQucEAHAE-10'>
+        <di:waypoint x='1892.8632' y='1224.5'/>
+        <di:waypoint x='1975.8632' y='1224.5'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='_natyxWOobNJQucEAHAE-14_di' bpmnElement='_natyxWOobNJQucEAHAE-14'>
+        <di:waypoint x='1495.8632' y='1240.19'/>
+        <di:waypoint x='1603.8632' y='1347.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='id_7Ihu8IjUHvZkqYCl5e5e-15_di' bpmnElement='id_7Ihu8IjUHvZkqYCl5e5e-15'>
+        <di:waypoint x='725.8632' y='1417.31'/>
+        <di:waypoint x='980.8632' y='1347.7400000000002'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='id_7l32CMybQGAGzA7F6XxO-2_di' bpmnElement='id_7l32CMybQGAGzA7F6XxO-2'>
+        <di:waypoint x='1495.8632' y='1123.255'/>
+        <di:waypoint x='1495.8632' y='996.13'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='TR1-OwJ4w3rAHMMEg73Q-3_di' bpmnElement='TR1-OwJ4w3rAHMMEg73Q-3'>
+        <di:waypoint x='890.8632' y='1123.38'/>
+        <di:waypoint x='1495.8632' y='1123.255'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='MtW7TlwyilQuHVQOJi66-13_di' bpmnElement='MtW7TlwyilQuHVQOJi66-13'>
+        <di:waypoint x='874.8632' y='1367.62'/>
+        <di:waypoint x='980.8632' y='1347.7400000000002'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='_0Se53VJJEQ7VVAzxL6d-2_di' bpmnElement='_0Se53VJJEQ7VVAzxL6d-2'>
+        <di:waypoint x='1495.8632' y='996.13'/>
+        <di:waypoint x='1593.8632' y='996.13'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='C-mqvkpRgGDrjUF-Eks6-2_di' bpmnElement='C-mqvkpRgGDrjUF-Eks6-2'>
+        <di:waypoint x='1531.8632' y='1865.76'/>
+        <di:waypoint x='1701.8632' y='1806.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ywSE4qTThs3-Gb8Ta71V-16_di' bpmnElement='ywSE4qTThs3-Gb8Ta71V-16'>
+        <di:waypoint x='304.8632' y='1784.5'/>
+        <di:waypoint x='304.8632' y='1864.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-8_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-8'>
+        <di:waypoint x='304.8632' y='1864.75'/>
+        <di:waypoint x='470.8632' y='1864.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-24_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-24'>
+        <di:waypoint x='454.8632' y='1246.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-25_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-25'>
+        <di:waypoint x='894.8632' y='1157.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-27_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-27'>
+        <di:waypoint x='1148.8632' y='1150.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-31_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-31'>
+        <di:waypoint x='1531.8632' y='1865.76'/>
+        <di:waypoint x='1656.8632' y='1865.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-33_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-33'>
+        <di:waypoint x='1306.8632' y='1865.76'/>
+        <di:waypoint x='1397.8632' y='1865.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-39_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-39'>
+        <di:waypoint x='1397.8632' y='1865.76'/>
+        <di:waypoint x='1397.8632' y='1816.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-42_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-42'>
+        <di:waypoint x='1397.8632' y='1865.76'/>
+        <di:waypoint x='1531.8632' y='1865.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-43_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-43'>
+        <di:waypoint x='454.8632' y='1297.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-45_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-45'>
+        <di:waypoint x='830.3632' y='1910.2549999999999'/>
+        <di:waypoint x='1023.3632' y='1909.8799999999999'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-47_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-47'>
+        <di:waypoint x='1023.3632' y='1909.8799999999999'/>
+        <di:waypoint x='1164.8632' y='1910.25'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-49_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-49'>
+        <di:waypoint x='590.8632' y='1910.2549999999999'/>
+        <di:waypoint x='709.3632' y='1910.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-50_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-50'>
+        <di:waypoint x='709.3632' y='1910.0'/>
+        <di:waypoint x='830.3632' y='1910.2549999999999'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-51_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-51'>
+        <di:waypoint x='693.8632' y='1365.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-52_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-52'>
+        <di:waypoint x='830.8632' y='2017.0'/>
+        <di:waypoint x='1023.3632' y='2017.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-64_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-64'>
+        <di:waypoint x='590.8632' y='2205.0'/>
+        <di:waypoint x='830.8632' y='2205.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-70_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-70'>
+        <di:waypoint x='830.8632' y='2205.0'/>
+        <di:waypoint x='980.8632' y='2205.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='T_3m5fmwSW-BjU6WBglm-224_di' bpmnElement='T_3m5fmwSW-BjU6WBglm-224'>
+        <di:waypoint x='590.8632' y='1778.0'/>
+        <di:waypoint x='707.3632' y='1778.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='T_3m5fmwSW-BjU6WBglm-227_di' bpmnElement='T_3m5fmwSW-BjU6WBglm-227'>
+        <di:waypoint x='894.8632' y='1197.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='UeVVwcErJcxSzJERRUiJ-6_di' bpmnElement='UeVVwcErJcxSzJERRUiJ-6'>
+        <di:waypoint x='304.8632' y='926.12'/>
+        <di:waypoint x='304.8632' y='1073.62'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='UeVVwcErJcxSzJERRUiJ-3_di' bpmnElement='UeVVwcErJcxSzJERRUiJ-3'>
+        <di:waypoint x='304.8632' y='758.0'/>
+        <di:waypoint x='304.8632' y='926.12'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ywSE4qTThs3-Gb8Ta71V-14_di' bpmnElement='ywSE4qTThs3-Gb8Ta71V-14'>
+        <di:waypoint x='304.8632' y='1073.62'/>
+        <di:waypoint x='304.8632' y='1784.5'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='UeVVwcErJcxSzJERRUiJ-7_di' bpmnElement='UeVVwcErJcxSzJERRUiJ-7'>
+        <di:waypoint x='304.8632' y='1073.62'/>
+        <di:waypoint x='500.3632' y='1073.62'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='t-DyxCg9REIbWnixEzsH-2_di' bpmnElement='t-DyxCg9REIbWnixEzsH-2'>
+        <di:waypoint x='1288.8632' y='810.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='t-DyxCg9REIbWnixEzsH-7_di' bpmnElement='t-DyxCg9REIbWnixEzsH-7'>
+        <di:waypoint x='725.8632' y='1278.0'/>
+        <di:waypoint x='980.8632' y='1347.7400000000002'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-4_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-4'>
+        <di:waypoint x='1288.8632' y='730.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-5_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-5'>
+        <di:waypoint x='1752.8632' y='640.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-6_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-6'>
+        <di:waypoint x='1414.8632' y='1347.0'/>
+        <di:waypoint x='1495.8632' y='1312.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-8_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-8'>
+        <di:waypoint x='1414.8632' y='1347.0'/>
+        <di:waypoint x='1495.8632' y='1378.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-9_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-9'>
+        <di:waypoint x='1414.8632' y='1347.0'/>
+        <di:waypoint x='1495.8632' y='1444.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-11_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-11'>
+        <di:waypoint x='1414.8632' y='1347.0'/>
+        <di:waypoint x='1495.8632' y='1514.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-12_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-12'>
+        <di:waypoint x='1414.8632' y='1347.0'/>
+        <di:waypoint x='1495.8632' y='1583.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-13_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-13'>
+        <di:waypoint x='1414.8632' y='1347.0'/>
+        <di:waypoint x='1495.8632' y='1652.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-14_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-14'>
+        <di:waypoint x='1414.8632' y='1347.0'/>
+        <di:waypoint x='1495.8632' y='1720.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-15_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-15'>
+        <di:waypoint x='1495.8632' y='1444.0'/>
+        <di:waypoint x='1603.8632' y='1347.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-16_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-16'>
+        <di:waypoint x='1495.8632' y='1378.0'/>
+        <di:waypoint x='1603.8632' y='1347.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='BgVumuXLWf0v4Xr0rbFz-19_di' bpmnElement='BgVumuXLWf0v4Xr0rbFz-19'>
+        <di:waypoint x='1768.8632' y='1346.62'/>
+        <di:waypoint x='1903.8632' y='1340.7450000000001'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WRc8SP0kT36MRJF_Wele-4_di' bpmnElement='WRc8SP0kT36MRJF_Wele-4'>
+        <di:waypoint x='713.3632' y='2103.75'/>
+        <di:waypoint x='1306.8632' y='1865.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WRc8SP0kT36MRJF_Wele-10_di' bpmnElement='WRc8SP0kT36MRJF_Wele-10'>
+        <di:waypoint x='454.8632' y='1390.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WRc8SP0kT36MRJF_Wele-12_di' bpmnElement='WRc8SP0kT36MRJF_Wele-12'>
+        <di:waypoint x='713.3632' y='2103.75'/>
+        <di:waypoint x='713.3632' y='2153.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WRc8SP0kT36MRJF_Wele-17_di' bpmnElement='WRc8SP0kT36MRJF_Wele-17'>
+        <di:waypoint x='1164.8632' y='1910.25'/>
+        <di:waypoint x='1164.8632' y='1968.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WRc8SP0kT36MRJF_Wele-18_di' bpmnElement='WRc8SP0kT36MRJF_Wele-18'>
+        <di:waypoint x='1164.8632' y='2017.0'/>
+        <di:waypoint x='1164.8632' y='1968.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WRc8SP0kT36MRJF_Wele-19_di' bpmnElement='WRc8SP0kT36MRJF_Wele-19'>
+        <di:waypoint x='1023.3632' y='2017.0'/>
+        <di:waypoint x='1164.8632' y='2017.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WRc8SP0kT36MRJF_Wele-23_di' bpmnElement='WRc8SP0kT36MRJF_Wele-23'>
+        <di:waypoint x='1164.8632' y='1910.25'/>
+        <di:waypoint x='1306.8632' y='1865.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='WRc8SP0kT36MRJF_Wele-25_di' bpmnElement='WRc8SP0kT36MRJF_Wele-25'>
+        <di:waypoint x='1164.8632' y='2017.0'/>
+        <di:waypoint x='1306.8632' y='1865.76'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='IEoV7ImQ8Nmd_irDuSAv-62_di' bpmnElement='IEoV7ImQ8Nmd_irDuSAv-62'>
+        <di:waypoint x='428.8632' y='1470.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ywSE4qTThs3-Gb8Ta71V-4_di' bpmnElement='ywSE4qTThs3-Gb8Ta71V-4'>
+        <di:waypoint x='1148.8632' y='1200.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ywSE4qTThs3-Gb8Ta71V-5_di' bpmnElement='ywSE4qTThs3-Gb8Ta71V-5'>
+        <di:waypoint x='1290.8632' y='1210.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='ywSE4qTThs3-Gb8Ta71V-9_di' bpmnElement='ywSE4qTThs3-Gb8Ta71V-9'>
+        <di:waypoint x='590.8632' y='2103.255'/>
+        <di:waypoint x='713.3632' y='2103.75'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='syn_flow_end_5_di' bpmnElement='syn_flow_end_5'>
+        <di:waypoint x='1495.8632' y='996.13'/>
+        <di:waypoint x='1562.8632' y='996.13'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='syn_flow_isplit_1_di' bpmnElement='syn_flow_isplit_1'>
+        <di:waypoint x='1899.8632' y='662.0'/>
+        <di:waypoint x='2017.8632' y='662.0'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='syn_flow_isplit_2_di' bpmnElement='syn_flow_isplit_2'>
+        <di:waypoint x='500.3632' y='1073.62'/>
+        <di:waypoint x='603.8632' y='1073.62'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='syn_flow_isplit_3_di' bpmnElement='syn_flow_isplit_3'>
+        <di:waypoint x='1135.8632' y='866.995'/>
+        <di:waypoint x='1253.8632' y='866.995'/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id='syn_flow_split_4_di' bpmnElement='syn_flow_split_4'>
+        <di:waypoint x='1354.8632' y='1347.0'/>
+        <di:waypoint x='1414.8632' y='1347.0'/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

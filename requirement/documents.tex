@@ -1,0 +1,320 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{eso-pic}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage[english, ukrainian]{babel}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\definecolor{nato}{HTML}{293757}
+\definecolor{footergray}{gray}{0.65}
+
+\geometry{a4paper,left=3cm,right=3cm,top=3cm,bottom=3cm}
+\renewcommand{\familydefault}{\sfdefault}
+\setcounter{secnumdepth}{3}
+
+\titleformat{\section}
+  {\color{nato}\Huge\bfseries}{\thesection.}{1em}{}
+\titlespacing*{\section}{0pt}{30pt}{12pt}
+
+\titleformat{\subsection}
+  {\color{nato}\LARGE\bfseries}{\thesubsection.}{1em}{}
+\titlespacing*{\subsection}{0pt}{20pt}{8pt}
+
+\titleformat{\subsubsection}
+  {\color{nato}\Large\bfseries}{\thesubsubsection.}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{10pt}{6pt}
+
+\fancyhf{}
+\fancyhead[R]{\small\color{footergray} 31 березня 2026}
+\fancyfoot[L]{\small\color{footergray} Технічні вимоги ЄСІКС. III. Інфраструктура документообігу}
+
+\fancyfoot[R]{\small\color{footergray}\thepage}
+
+\newcommand\HUGE[1]{\fontsize{40}{40}\selectfont #1}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footrule}{\color{footergray}\hrule width \textwidth height 0.4pt}
+
+\begin{document}
+
+\pagestyle{fancy}
+
+\begin{titlepage}
+  \AddToShipoutPictureBG*{\AtPageLowerLeft{\color{nato}\rule{\paperwidth}{\paperheight}}}
+  \color{white}\thispagestyle{empty}\vspace*{4cm}\centering
+  {\Huge  \textbf{Технічні вимоги ЄСІКС} \par} \vspace{2cm}
+  {\HUGE  \textbf{III. Документообіг} \par} \vspace{2.5cm}
+  {\LARGE \textbf{III-1. Шаблони документів (DOCX, XLSX)} \par}
+  {\LARGE \textbf{III-2. Генерація документів (PDF)} \par}
+  {\LARGE \textbf{III-3. Генерація бар- та штрих-кодів (QR)} \par}
+  {\LARGE \textbf{III-4. Розпізнавання Tesseract (OCR)} \par}
+  {\LARGE \textbf{III-5. Текстуально-голосові трансформації (S2T, T2S)} \par}
+  {\LARGE \textbf{III-6. Система сканування (SCAN)} \par}
+  {\LARGE \textbf{III-7. Редактор справ консиліуму (CRDT)} \par} \vspace{2.5cm}
+  \vfill
+  {\large 2026 \copyright\ Інформаційні Судові Системи \par}
+\end{titlepage}
+
+\newpage
+
+\begin{center}
+  {\Huge\color{nato}\bfseries Зміст\par}
+\end{center}
+\vspace{40pt}
+\tableofcontents
+
+\begin{abstract}
+ТЕХНІЧНІ ВИМОГИ
+НА СТВОРЕННЯ ЗАСОБУ ІНФОРМАТИЗАЦІЇ - КОМПОНЕНТІВ ІНФРАСТРУКТУРИ ДОКУМЕНТООБІГУ
+ЄДИНОЇ СУДОВОЇ ІНФОРМАЦІЙНО-КОМУНІКАЦІЙНОЇ СИСТЕМИ.
+\end{abstract}
+
+\newpage
+\section*{Вступна частина}
+
+\subsection*{Умовні скорочення та визначення}
+
+Терміни та скорочення, що використовуються в документі:
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{Термін} & \textbf{Значення} \\
+\midrule
+API & Автоматизовані програмні інтеграції, відомі також як “прикладний інтерфейс програмування – application programming interface” \\
+БД & База Даних — Організована колекція даних, яка зберігається та управляється з використанням комп'ютерної системи; забезпечує зберігання, організацію та доступ до даних з метою ефективного використання та обробки \\
+БП & Бізнес Процес — Сукупність дій необхідних для здійснення людиною або системою, в результаті яких відбувається досягнення бажаного результату \\
+КЕП & Кваліфікований електронний підпис (X.509) \\
+РМК & Реєстраційно-моніторингова картка \\
+АРМ & Автоматизоване робоче місце користувача \\
+ЄСІКС & Єдина судова інформаційно-комунікаційна система \\
+BPMN & Business Process Model and Notation (ISO 19510) — стандарт моделювання та оркестрації бізнес-процесів \\
+DOCX & Формат шаблонів документів Microsoft Word (Open XML) — стандартизований формат для створення та редагування текстових документів у системі документообігу \\
+XLSX & Формат шаблонів електронних таблиць Microsoft Excel (Open XML) — стандартизований формат для створення та редагування табличних даних у системі документообігу \\
+PDF & Portable Document Format — універсальний формат для представлення, зберігання та архівації документів незалежно від програмного забезпечення та платформи \\
+QR & Quick Response code — двовимірний штрих-код для швидкого сканування, ідентифікації документів та доступу до інформації \\
+OCR & Optical Character Recognition (Tesseract) — технологія автоматичного розпізнавання та перетворення тексту зі сканованих зображень і документів у редагований текст \\
+S2T & Speech-to-Text — перетворення мовлення (голосу) в текст для текстово-голосових трансформацій \\
+T2S & Text-to-Speech — перетворення тексту в синтезоване мовлення (голос) для текстово-голосових трансформацій \\
+CRDT & Conflict-free Replicated Data Type (EDIT) — багатокористувацький суддівський редактор справ консиліуму з підтримкою одночасної роботи без конфліктів редагування \\
+\bottomrule
+\end{longtable}
+
+\newpage
+\subsection*{Загальні положення}
+
+Технічні вимоги на основі «Концепції ЄСІКС» від 2024 року \cite{esiks} і авторських вимог до твору
+на ``ERP/1: Документи'' \footnote{\url{https://crm.erp.uno}}.
+
+\subsection*{Призначення та цілі впровадження}
+З метою забезпечення узгодженої, безпечної та ефективної роботи ЄСІКС у сфері документообігу,
+а також унеможливлення фрагментації підходів до створення, обробки, генерації та управління документами,
+в межах ЄСІКС є необхідним створення та впровадження централізованих спільних компонентів, зокрема:
+\begin{enumerate}
+\item \textbf{Шаблони документів (DOCX, XLSX)}: централізоване створення, зберігання, версіонування та керування шаблонами документів.
+\item \textbf{Генерація документів (PDF)}: автоматизована генерація, конвертація та експорт документів у PDF-форматі.
+\item \textbf{Генерація та накладання бар- та штрих-кодів (QR)}: створення, інтеграція та автоматичне накладання баркодів, штрих-кодів і QR-кодів на документи.
+\item \textbf{Розпізнавання Tesseract (OCR)}: автоматичне розпізнавання та перетворення тексту зі сканованих зображень і документів.
+\item \textbf{Текстуально-голосові трансформації (S2T, T2S)}: підтримка двосторонніх перетворень тексту в мовлення та мовлення в текст.
+\item \textbf{Багатокористувацький суддівський редактор справ консиліуму (CRDT)}: централізований редактор для спільної багатокористувацької роботи над справами консиліуму.
+\end{enumerate}
+
+Реалізація зазначених складових є передумовою побудови цілісної, масштабованої та керованої архітектури ЄСІКС, зниження витрат на розробку та супровід, забезпечення єдиних стандартів безпеки та користувацького досвіду.
+
+\newpage
+\section{Шаблони документів}
+Централізована підсистема для розробки та зберігання шаблонів у форматах DOCX та XLSX з підтримкою динамічних плейсхолдерів.
+
+\subsection{Вимоги до сутностей}
+\subsubsection{Шаблон DOCX/XLSX}
+Шаблон документу повинен бути у форматі OpenXML (ISO/IEC 29500) і підтримувати плейсхолдери таких типів: скалярні значення (текст), таблиці (завантаження з CSV), зображення (вставка логотипів та ілюстрацій).
+
+\subsubsection{Набір змінних}
+Реквізитна частина змінних включає векторні дані (таблиці), зображення та скалярні поля.
+
+\subsection{Вимоги до процесів}
+\subsubsection{Заповнення шаблону}
+Процес заміни плейсхолдерів даними з вхідних параметрів (CLI-аргументи або API) з генерацією заповненого DOCX-файлу.
+
+\subsubsection{Версіонування шаблонів}
+Збереження та керування версіями шаблонів у централізованому сховищі.
+
+Референсна імплементація надана в репозиторії \textbf{erpuno/docx}\footnote{\url{https://github.com/erpuno/docx}} (F\#-процесор шаблонів OpenXML).
+
+\newpage
+\section{Генерація документів}
+Сервіс автоматичного формування документів у форматі PDF на основі затверджених шаблонів та даних із реєстрових систем ЄСІКС.
+
+\subsection{Вимоги до сутностей}
+\subsubsection{Заповнений документ}
+Об’єкт, що містить заповнений DOCX/XLSX та мета-дані для конвертації.
+
+\subsubsection{PDF-документ}
+Фінальний артефакт у форматі PDF/A-3 (архівний) з вбудованими шрифтами та цифровим підписом.
+
+\subsection{Вимоги до процесів}
+\subsubsection{Генерація PDF}
+Автоматична конвертація заповненого шаблону DOCX у PDF з збереженням форматування, таблиць та зображень.
+
+\subsubsection{Накладання КЕП}
+Автоматичне накладання кваліфікованого електронного підпису на згенерований PDF.
+
+\subsubsection{Архівація}
+Збереження PDF у довгострокове сховище з фіксацією хешу для цілісності.
+
+\newpage
+\section{Генерація бар- та штрих-кодів}
+Підсистема генерації лінійних та матричних кодів (QR) для забезпечення простежуваності та верифікації паперових та електронних примірників документів.
+Референсна імплементація надана в репозиторії \textbf{erpuno/barlix}\footnote{\url{https://github.com/erpuno/barlix}}
+(BARLIX — генератор QR-кодів та лінійних штрих-кодів для Elixir з підтримкою Code39 та PNG-рендерингу).
+
+\subsection{Вимоги до сутностей}
+\subsubsection{Код}
+Об’єкт, що містить тип (EAN-13, Code128, QR), дані (URL, ID документу, checksum) та зображення.
+
+\subsubsection{Накладання}
+Мета-дані позиції накладання на PDF/DOCX.
+
+\subsection{Вимоги до процесів}
+\subsubsection{Генерація коду}
+Створення зображення коду за алгоритмами ISO/IEC 18004 (QR) та ISO/IEC 15417 (Code128).
+
+\subsubsection{Накладання на документ}
+Автоматичне вставлення коду в шаблон або PDF на заданій позиції.
+
+\subsubsection{Верифікація}
+Перевірка сканованого коду на відповідність оригіналу.
+
+\newpage
+\section{Розпізнавання Tesseract}
+Інтегрований сервіс оптичного розпізнавання символів (OCR) для автоматизованого перетворення сканованих копій у текстовий формат.
+
+\subsection{Вимоги до сутностей}
+\subsubsection{Документ PDF}
+Вхідний файл (сканований або текстовий PDF) з мета-даними (колір, статус).
+
+\subsubsection{Результати OCR}
+Текст з підтримкою української мови, векторні координати підсвічування, tsvector для повнотекстового пошуку.
+
+\subsection{Вимоги до процесів}
+\subsubsection{Інгестія документа}
+Завантаження PDF та постановка в чергу на обробку (статус PENDING).
+
+\subsubsection{Виконання OCR}
+Розпізнавання за допомогою Tesseract OCR з українським словником (hunspell-uk, custom stop-words).
+
+\subsubsection{Повнотекстовий пошук}
+Індексація результатів у PostgreSQL з підтримкою префіксного пошуку та підсвічування.
+
+\subsubsection{Отримання підсвічування}
+Повернення координат термінів пошуку на сторінках документа.
+
+Референсна імплементація надана в репозиторії \textbf{erpuno/ocr}\footnote{\url{https://github.com/erpuno/ocr}} (FastAPI + Tesseract + PostgreSQL).
+
+\addtocontents{toc}{\protect\newpage}
+\newpage
+\section{Текстуально-голосові трансформації}
+Компоненти для синтезу мовлення із тексту та розпізнавання голосових команд для інклюзивного доступу та автоматизації засідань.
+
+\subsection{Вимоги до сутностей}
+\subsubsection{Аудіо-потік}
+Вхідний/вихідний аудіо-файл або потік у форматах WAV/OPUS.
+
+\subsubsection{Текстовий фрагмент}
+Сегмент тексту з тимінгами для S2T/T2S.
+
+\subsection{Вимоги до процесів}
+\subsubsection{Speech-to-Text (S2T)}
+Розпізнавання мовлення (українська мова) у реальному часі або пакетному режимі.
+
+\subsubsection{Text-to-Speech (T2S)}
+Синтез мовлення з тексту з природним наголосом та інтонацією.
+
+\subsubsection{Інтеграція з АРМ}
+Автоматична транскрипція аудіо засідань та озвучення текстових рішень.
+
+\newpage
+\section{Система сканування}
+Система сканування не повинна містити жодних ліцензій і бути повністю безкоштовною.
+Протокол повинен підтримуватися TWAIN32. Leadtools, Scandit, Dynamsoft, IronOCR, PackageX, Tabscanner, VueScan, Mistral OCR та інші не підходять.
+Система повинна бути написана на .NET і підтримувати Windows, Linux та Mac, та запускатися в Tray, як
+фоновий процес, в середині якого повинен бути реалізований доступ до TWAIN пристроїв, а результати сканування
+передаватися по WebSocket протоколу через цей фоновий процес в клієнтські застосунки які потребують джерел сканування.
+Референсна імплементація надана в репозиторії \textbf{erpuno/scan}\footnote{\url{https://erpuno.github.io/scan}}.
+
+\subsection{Вимоги до сутностей}
+\subsubsection{Профіль сканера}
+Налаштування TWAIN data-copy (Epson DS-530, Canon DR-C240, Kodak тощо) з параметрами duplex/autoscan.
+
+\subsubsection{Сканований документ}
+Багатосторінковий PDF з мета-даними (джерело, профіль, timestamp).
+
+\subsection{Вимоги до процесів}
+\subsubsection{Ініціація сканування}
+Команда через WebSocket (наприклад, SCAN,DS-530,AUTOSCAN+AUTOFEED).
+
+\subsubsection{Доставка результату}
+Передача готового PDF у браузер/клієнт через WebSocket.
+
+\newpage
+\section{Багатокористувацький редактор}
+Інструмент для спільної роботи суддів та секретарів над проєктами рішень у режимі реального часу на основі технології CRDT.
+
+\subsection{Вимоги до сутностей}
+\subsubsection{Редакційний документ}
+Текстовий/структурований документ (справа консиліуму) з CRDT-структурами (текст, таблиці, коментарі).
+
+\subsubsection{Операція редагування}
+Атомарна зміна (insert/delete) з векторним годинником для конфліктного розв’язання.
+
+\subsection{Вимоги до процесів}
+\subsubsection{Синхронізація в реальному часі}
+Одночасне редагування кількома користувачами без блокувань з мінімальним і контрольованим латенсі в VPN мережі.
+
+\subsubsection{Історія змін}
+Збереження повної історії операцій для undo/redo та аудиту.
+
+\subsubsection{Фіксація версії}
+Перехід у режим «тільки читання» після підписання КЕП.
+
+\subsubsection{Транзакційність}
+Транзакційність вимагається покомітно як в git, мінімальна одиниця редагування "параграф",
+який повинен бути формально визначений в системі.
+
+\newpage
+\section*{Висновок}
+Інфраструктура документообігу ЄСІКС створює умови для повного переходу до безпаперового судочинства, забезпечуючи автоматизацію рутинних операцій, безпеку зберігання та зручність колективної роботи над судовими справами.
+
+\begin{thebibliography}{9}
+
+\bibitem{ecoz:rehab} Міністерство охорони здоров’я України. \newblock Технічні вимоги Реабілітація 2.0. \newblock Версія 08.08.2024.
+\bibitem{dstu:3973} ДСТУ 3973-2000. \newblock Система розроблення та постачання продукції на виробництво. Правила виконання науково-дослідних робіт. Загальні положення.
+\bibitem{dstu:3974} ДСТУ 3974-2000. \newblock Система розроблення та постачання продукції на виробництво. Правила виконання науково-конструкторських робіт. Загальні положення.
+\bibitem{dstu:42010} ДСТУ 42010:2018. \newblock Інженерія систем і програмних засобів. Опис архітектури.
+\bibitem{law:info-protection} Закон України «Про захист інформації в інформаційно-телекомунікаційних системах».
+\bibitem{law:personal-data} Закон України «Про захист персональних даних».
+\bibitem{law:cybersecurity} Закон України «Про основні засади забезпечення кібербезпеки України».
+\bibitem{owasp:top10} OWASP Foundation. \newblock OWASP Top 10: The Ten Most Critical Web Application Security Risks. \newblock \url{https://owasp.org/www-project-top-ten/}.
+\bibitem{nist:sp800-57} NIST Special Publication 800-57 Part 1 Revision 5. \newblock Recommendation for Key Management.
+\bibitem{iso:42010} ISO/IEC/IEEE 42010:2022. \newblock Systems and software engineering — Architecture description.
+\bibitem{zachman} Zachman, J.A. \newblock A Framework for Information Systems Architecture. \newblock IBM Systems Journal, 1987.
+\bibitem{esiks} Концепція ЄСІКС. \url{https://court.gov.ua/storage/portal/dsa/news/Kontseptsia%20ESIKS.pdf}. 2024
+\bibitem{cbor} CBOR/COSE encoding/protocol. \url{https://tonpa.guru/stream/2024/2024-11-20%20CBOR%20COSE.htm}. 2025
+
+\end{thebibliography}
+
+\end{document}

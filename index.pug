@@ -1,0 +1,222 @@
+include header
+
+html
+    head
+        meta(property='og:title'       content='ЄСІКС')
+        meta(property='og:description' content='Єдина Судова Інформаційно-комунікаційна Система')
+        meta(property='og:url'         content='https://ujics.com/')
+
+block title
+    title ЄСІКС
+
+block content
+    article.main
+        .exe
+            section
+            p(style="font-size: 14px;").
+                Тут представлені звіти активностей процесу виробництва ISO-9001 Єдиної Судової
+                Інформаційно-комунікаційної Системи (ЄСІКС) або Unified Judicial Information
+                Communication System (UJICS), яка складається з 10 томів.
+
+        br
+        <hr size=1>
+        br
+        .exe
+            section
+            h1 АКТИВНОСТІ
+            p.
+                Процес виробництва включає наступні кроки:
+
+        .types
+            -
+                var activities = {
+                    'Аналіз та Вимоги': {
+                        'Цілі та ключові результати': '',
+                        'Аудит ЄСІКС': '',
+                        'Бізнес-аналіз ISO 42010': '',
+                        'Політики проєкту': '',
+                        'Технічні вимоги': ''
+                    },
+                    'Проєктування': {
+                        'Системний аналіз': '',
+                        'Технічне завдання': '',
+                        'Діаграми Ганта (менеджмент)': '',
+                    },
+                    'Розробка та Якість': {
+                        'Референсна імплементація BPMN': '',
+                        'Контроль каналів розповсюдження': '',
+                        'Управління циклом розробки': '',
+                        'Система контролю якості': '',
+                        'OpenAPI 3.0+ Документація': ''
+                    }
+                };
+            .type
+                for v, k in activities
+                    ol.type__col
+                        h3= k
+                        for j, i in v
+                            if j === ""
+                                li(style="font-size:14px;"): b()= i
+                            else
+                                li(style="font-size:14px;"): a(href= j)= i
+
+        br
+        .exe
+            section
+            h1 ЗМІСТ РЕПОЗИТОРІЮ
+            p.
+                Структура проєкту ЄСІКС:
+
+        .types
+            -
+                var structure = {
+                    'Документи': {
+                        'Результати аудиту': 'audit/',
+                        'Політики': 'policy/policy.pdf',
+                        'Технічні вимоги': 'requirement/'
+                    },
+                    'Технічна реалізація': {
+                        'Технічні завдання': 'specification/',
+                        'Референсна імплементація': 'implementation/',
+                        'Система контролю якості': 'quality/'
+                    },
+                    'Документація': {
+                        'Технічна документація': 'documentation/'
+                    }
+                };
+
+            .type
+                for v, k in structure
+                    ol.type__col
+                        h3= k
+                        for j, i in v
+                            li(style="font-size:14px;")
+                                a(href= j)= i
+
+        br
+        .exe
+            section
+
+        br
+        .exe
+            section
+
+            h1 ЦІЛІ ТА РЕЗУЛЬТАТИ
+            p.
+                Використання методології OKR дозволяє сфокусувати зусилля розробників,
+                аналітиків та керівників на пріоритетних напрямах, забезпечити вимірюваність результатів
+                та гнучкість управління в умовах високої невизначеності та технологічних змін.
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="okr/okr.pdf") &nbsp; Цілі та результати проєкту ЄСІКС
+
+            h1 БЕЗПЕКА
+            p.
+                Політики безпеки і профілі безпеки.
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="https://ca.n2o.dev/priv/security-policy.pdf") &nbsp; Політики і модель профілів безпеки
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="https://ca.n2o.dev/priv/bible_profile.pdf") &nbsp; Каталог контрольних елементів (1123)
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="https://ca.n2o.dev/priv/nist.pdf") &nbsp; Створення профілів безпеки
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="https://ca.n2o.dev/priv/cmdb.pdf") &nbsp; Конфігурація профілів безпеки
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="https://ca.n2o.dev/priv/legal_l2_court_profile.pdf") &nbsp; Галузевий профіль безпеки публічної і конфіденційної інформації
+            br
+
+            h1 ПОЛІТИКИ
+            p.
+                Уніфіковоані загальні нефункціональні вимоги ЄСІКС винесені в Політики проєкту,
+                що визначають мета-правила та методологію розробки починаючи від перших стадій:
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="policy/policy.pdf") &nbsp; Політики проєкту ЄСІКС
+
+            h1 ТЕХНІЧНІ ВИМОГИ
+            p.
+                Основна документація розділена на 10 тематичних томів, що містить
+                перелік контрольних сутностей, та контрольних кроків бізнес процесів:
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirement/foundations.pdf") &nbsp; Том I: Iнфраструктурнi сервiси
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirement/accounting.pdf") &nbsp; Том II: Господарська дiяльнiсть
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirement/documents.pdf") &nbsp; Том III: Документообiг
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirement/registries.pdf") &nbsp; Том IV: Реєстри
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirement/court.pdf") &nbsp; Том V: Судопис
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirement/judges.pdf") &nbsp; Том VI: Суддiвство
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirement/awareness.pdf") &nbsp; Том VII: Iнтелектуальнi сервiси
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirement/business.pdf") &nbsp; Том VIII: Бiзнес, аналiз i звiтнiсть
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirement/portal.pdf") &nbsp; Том IX: Інформаційно-пошукова система
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirement/cabonet.pdf") &nbsp; Том X: Кабінет
+
+            h1 ТЕХНІЧНІ ЗАВДАННЯ
+            p.
+                Формалізовані технічні завдання і техноробочі проєкти.
+
+            h1 РЕФЕРЕНСНІ ІМПЛЕМЕНТАЦІЇ
+            p.
+                Референсні імплементації для вендорів.
+            p.
+                <video src="implementation/suddivstvo.mp4" width="600" controls muted loop playsinline>Ваш браузер не підтримує відео.</video>
+
+            h1 ПЛАН ПРОЄКТУ
+            p.
+                Узгоджений публічний проєктний менеджмент.
+        br
+        .exe
+            section
+            h1 КОДИФІКАЦІЯ
+            p.
+                Субпродукти ЄСІКС, імена відповідають репозиторіям:
+            pre.
+                1 PKI EUDI ABAC IAM BPMN HL7 SCHEMA XFORMS
+                2 BUD FIN ACC CRM
+                3 DOCX XLSX PDF QR OCR S2T T2S CRDT
+                4 EXEC ORDER POSITION DIGER CITIZEN ESQ POSITION JUDGE BIZ
+                5 DEEDS PROSEC COURT AUTOCASE CART
+                6 JACC FILTER QUALIFY PROFILE VERRIFY
+                7 EXCERPT RECCOMEND PRACTICE ATTOURNEY ENTITIES
+                8 CAL TASK PAYMENT ARCHIVE COMMENTS VKZ JOURNALS
+                9 CMS
+
+
+    hr
+    include footer

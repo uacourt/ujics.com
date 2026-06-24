@@ -1,0 +1,298 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{eso-pic}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage[english, ukrainian]{babel}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\definecolor{nato}{HTML}{293757}
+\definecolor{footergray}{gray}{0.65}
+
+\geometry{a4paper,left=3cm,right=3cm,top=3cm,bottom=3cm}
+\renewcommand{\familydefault}{\sfdefault}
+\setcounter{secnumdepth}{3}
+
+\titleformat{\section}
+  {\color{nato}\Huge\bfseries}{\thesection.}{1em}{}
+\titlespacing*{\section}{0pt}{30pt}{12pt}
+
+\titleformat{\subsection}
+  {\color{nato}\LARGE\bfseries}{\thesubsection.}{1em}{}
+\titlespacing*{\subsection}{0pt}{20pt}{8pt}
+
+\titleformat{\subsubsection}
+  {\color{nato}\Large\bfseries}{\thesubsubsection.}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{10pt}{6pt}
+
+\fancyhf{}
+\fancyhead[R]{\small\color{footergray} 31 березня 2026}
+\fancyfoot[L]{\small\color{footergray} Технічні вимоги ЄСІКС. IV. Реєстри}
+
+\fancyfoot[R]{\small\color{footergray}\thepage}
+
+\newcommand\HUGE[1]{\fontsize{40}{40}\selectfont #1}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footrule}{\color{footergray}\hrule width \textwidth height 0.4pt}
+
+\begin{document}
+
+\pagestyle{fancy}
+
+\begin{titlepage}
+  \AddToShipoutPictureBG*{\AtPageLowerLeft{\color{nato}\rule{\paperwidth}{\paperheight}}}
+  \color{white}\thispagestyle{empty}\vspace*{4cm}\centering
+  {\Huge  \textbf{Технічні вимоги ЄСІКС} \par} \vspace{2cm}
+  {\HUGE  \textbf{IV. Реєстри} \par} \vspace{2.5cm}
+  {\LARGE \textbf{IV-1. Виконавчі документи} \par}
+  {\LARGE \textbf{IV-2. Судові рішення} \par}
+  {\LARGE \textbf{IV-3. Правові позиції} \par}
+  {\LARGE \textbf{IV-4. Дайджести} \par}
+  {\LARGE \textbf{IV-5. Фізичні особи} \par}
+  {\LARGE \textbf{IV-6. Адвокати} \par}
+  {\LARGE \textbf{IV-7. Уповноважені} \par}
+  {\LARGE \textbf{IV-8. Кадри судової влади} \par}
+  {\LARGE \textbf{IV-9. Суб'єкти господарювання} \par}
+  {\LARGE \textbf{IV-10. Зовнішні реєстри (ШБО)} \par}
+  \vfill
+  {\large 2026 \copyright\ Інформаційні Судові Системи \par}
+\end{titlepage}
+
+\newpage
+\begin{center}
+  {\Huge\color{nato}\bfseries Зміст\par}
+\end{center}
+\vspace{40pt}
+\tableofcontents
+
+\begin{abstract}
+ТЕХНІЧНІ ВИМОГИ
+НА СТВОРЕННЯ ЗАСОБУ ІНФОРМАТИЗАЦІЇ - КОМПОНЕНТІВ “РЕЄСТРИ”, МАЙСТЕР РЕЄСТРІВ, ЄДРСР, ЄДРВД В РАМКАХ
+ЄДИНОЇ СУДОВОЇ ІНФОРМАЦІЙНО-КОМУНІКАЦІЙНОЇ СИСТЕМИ.
+\end{abstract}
+
+\newpage
+\section*{Вступна частина}
+
+\subsection*{Умовні скорочення та визначення}
+
+Терміни та скорочення, що використовуються в документі:
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{Термін} & \textbf{Значення} \\
+\midrule
+API & Автоматизовані програмні інтеграції, відомі також як “прикладний інтерфейс програмування – application programming interface” \\
+БД & База Даних — Організована колекція даних, яка зберігається та управляється з використанням комп'ютерної системи; забезпечує зберігання, організацію та доступ до даних з метою ефективного використання та обробки \\
+БП & Бізнес Процес — Сукупність дій необхідних для здійснення людиною або системою, в результаті яких відбувається досягнення бажаного результату \\
+КЕП & Кваліфікований електронний підпис (X.509) \\
+ЄСІКС & Єдина судова інформаційно-комунікаційна система \\
+\bottomrule
+\end{longtable}
+
+\subsection*{Загальні положення}
+
+Технічні вимоги на основі «Концепції ЄСІКС» від 2024 року \cite{esiks} і API судової системи ЄДРСР\cite{eCourt}.
+
+\newpage
+\section{Реєстр виконавчих документів}
+
+\subsection{Вимоги до сутностей}
+
+\subsubsection{Виконавчі листи}
+\subsubsection{Судові накази}
+\subsubsection{Виконавчі написи нотаріусів}
+\subsubsection{Ухвали}
+\subsubsection{Посвідчення комісій по трудових спорах}
+\subsubsection{Постанови органів}
+\subsubsection{Постанови державних виконавців}
+\subsubsection{Постанови приватних виконавців}
+\subsubsection{Рішення і акти виконавчих органів}
+\subsubsection{Рішення Європейського суду з прав людини}
+\subsubsection{Рішення (постанови) суб’єктів державного фінансового моніторингу}
+\subsubsection{Рішення Органу суспільного нагляду за аудиторською діяльністю або Аудиторської палати України}
+\subsubsection{Рішення Національної ради України з питань телебачення і радіомовлення}
+
+\subsection{Вимоги до процесів}
+
+\subsubsection{Публікація наказу}
+\subsubsection{Публікація ухвали}
+\subsubsection{Публікація постанови}
+\subsubsection{Публікація рішення}
+\subsubsection{Життєвий цикл посвічення}
+\subsubsection{Життєвий цикл виконавчого напису}
+
+\newpage
+\section{Реєстр судових рішень}
+Технічні вимоги до реєстру судових рішень в повній мірі реалізуються ЄДРСР (версія 1.16).
+
+\subsection{Вимоги до довідників}
+
+\subsubsection{Категорія справи (CaseCategory)}
+\subsubsection{Роль судді у справі / провадженні (CaseJudgeRole)}
+\subsubsection{Тип (роль) учасника справи (CaseMemberRole)}
+\subsubsection{Стан розгляду справи (CaseStatus)}
+\subsubsection{Суд (Court)}
+\subsubsection{Тип суду (CourtType)}
+\subsubsection{Категорія документу (DocCategory)}
+\subsubsection{Тип документу (DocType)}
+\subsubsection{Юрисдикція суду (JurisdictionType)}
+\subsubsection{Вид судочинства (JusticeType)}
+\subsubsection{Результат розгляду провадження (ProcResult)}
+\subsubsection{Стадія розгляду провадження (ProcStage)}
+\subsubsection{Стан розгляду провадження (ProcStatus)}
+\subsubsection{Регіон (Region)}
+\subsubsection{Тип заяви (ClaimType)}
+
+\addtocontents{toc}{\protect\newpage}
+\newpage
+\subsection{Вимоги до сутностей}
+
+\subsubsection{Судові рішення (DocumentDto)}
+\subsubsection{Файли документу (DocumentFileDto)}
+\subsubsection{Ідентифікаційні документи (DocumentAsdsLink)}
+\subsubsection{Заява (ClaimPostDto)}
+\subsubsection{Квинтація заяви (ClaimTicketDto)}
+\subsubsection{Справа (Case)}
+\subsubsection{Провадження (Proceedings)}
+\subsubsection{Учасник справи (CaseMemberDto)}
+\subsubsection{Суддя по справі (CaseJudge)}
+\subsubsection{Календар судових засідань (Trial)}
+\subsubsection{Виконавче провадження (ExecutiveDecision)}
+\subsubsection{Довіреність (PowerOfAttorney)}
+\subsubsection{Документи сторін (PartyDocPostDto)}
+\subsubsection{Постанова виконавчого провадження (ExecutiveDecisionDocumentDto)}
+\subsubsection{Результат розсилки документів сторонам (PartyDocPostResultDto)}
+\subsubsection{Квитанція про доставку cтороні справи (CaseMemberTicketDto)}
+
+\newpage
+\subsection{Вимоги до процесів}
+
+\subsubsection{Завантаження файлу}
+\subsubsection{Видалення файлу}
+\subsubsection{Життєвий цикл справ}
+\subsubsection{Життєвий цикл заяви}
+\subsubsection{Життєвий цикл довіреності}
+\subsubsection{Життєвий цикл виконавчого провадження}
+\subsubsection{Розсилка документів сторонам}
+\subsubsection{Отримання квитанції про розсилку сторонам}
+\subsubsection{Подача заяви в чергу на обробку}
+\subsubsection{Отримання квитанції про статус заяви}
+\subsubsection{Публікація судового рішення}
+\subsubsection{Перевірка наявності кабінету особи}
+
+\newpage
+\section{Реєстр правових позицій}
+
+\subsection{Вимоги до сутностей}
+
+\subsubsection{Правова позиція}
+
+\subsection{Вимоги до процесів}
+
+\subsubsection{Життєвий цикл правової позиції}
+
+\newpage
+\section{Реєстр дайджестів}
+
+\subsection{Вимоги до сутностей}
+
+\subsubsection{Дайджест}
+
+\subsection{Вимоги до процесів}
+
+\subsubsection{Життєвий цикл дайджеста}
+
+\addtocontents{toc}{\protect\newpage}
+\newpage
+\section{Реєстр фізичних осіб}
+
+\subsection{Вимоги до сутностей}
+
+\subsubsection{Фізична особа}
+
+\subsection{Вимоги до процесів}
+
+\subsubsection{Життєвий цикл фізичної особи}
+
+\newpage
+\section{Реєстр адвокатів}
+
+\subsection{Вимоги до сутностей}
+
+\subsubsection{Адвокат}
+
+\subsection{Вимоги до процесів}
+
+\subsubsection{Життєвий цикл адвоката}
+
+\newpage
+\section{Реєстр суддів}
+
+\subsection{Вимоги до сутностей}
+
+\subsubsection{Суддя}
+
+\subsection{Вимоги до процесів}
+
+\subsubsection{Життєвий цикл судді}
+
+\newpage
+\section{Реєстр уповноважених}
+
+\subsection{Вимоги до сутностей}
+
+\subsubsection{Уповноважений}
+
+\subsection{Вимоги до процесів}
+
+\subsubsection{Життєвий цикл уповноваженого}
+
+\newpage
+\section{Реєстр суб'єктів Мінекономіки}
+
+\subsection{Вимоги до сутностей}
+
+\subsubsection{Суб'єкт господарської діяльності}
+
+\subsection{Вимоги до процесів}
+
+\subsubsection{Життєвий цикл суб'єкта господарювання}
+
+\newpage
+\section*{Висновок}
+
+\begin{thebibliography}{9}
+
+\bibitem{ecoz:rehab} Міністерство охорони здоров’я України. \newblock Технічні вимоги Реабілітація 2.0. \newblock Версія 08.08.2024.
+\bibitem{dstu:3973} ДСТУ 3973-2000. \newblock Система розроблення та постачання продукції на виробництво. Правила виконання науково-дослідних робіт. Загальні положення.
+\bibitem{dstu:3974} ДСТУ 3974-2000. \newblock Система розроблення та постачання продукції на виробництво. Правила виконання науково-конструкторських робіт. Загальні положення.
+\bibitem{dstu:42010} ДСТУ 42010:2018. \newblock Інженерія систем і програмних засобів. Опис архітектури.
+\bibitem{law:info-protection} Закон України «Про захист інформації в інформаційно-телекомунікаційних системах».
+\bibitem{law:personal-data} Закон України «Про захист персональних даних».
+\bibitem{law:cybersecurity} Закон України «Про основні засади забезпечення кібербезпеки України».
+\bibitem{owasp:top10} OWASP Foundation. \newblock OWASP Top 10: The Ten Most Critical Web Application Security Risks. \newblock \url{https://owasp.org/www-project-top-ten/}.
+\bibitem{nist:sp800-57} NIST Special Publication 800-57 Part 1 Revision 5. \newblock Recommendation for Key Management.
+\bibitem{iso:42010} ISO/IEC/IEEE 42010:2022. \newblock Systems and software engineering — Architecture description.
+\bibitem{zachman} Zachman, J.A. \newblock A Framework for Information Systems Architecture. \newblock IBM Systems Journal, 1987.
+\bibitem{esiks} Концепція ЄСІКС. \url{https://court.gov.ua/storage/portal/dsa/news/Kontseptsia%20ESIKS.pdf}. 2024
+\bibitem{cbor} CBOR/COSE encoding/protocol. \url{https://tonpa.guru/stream/2024/2024-11-20%20CBOR%20COSE.htm}. 2025
+
+\end{thebibliography}
+
+\end{document}

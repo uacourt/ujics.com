@@ -1,0 +1,116 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{eso-pic}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage[english, ukrainian]{babel}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\definecolor{nato}{HTML}{293757}
+\definecolor{footergray}{gray}{0.65}
+
+\geometry{a4paper,left=3cm,right=3cm,top=3cm,bottom=3cm}
+\renewcommand{\familydefault}{\sfdefault}
+\setcounter{secnumdepth}{3}
+
+\titleformat{\section}
+  {\color{nato}\Huge\bfseries}{\thesection.}{1em}{}
+\titlespacing*{\section}{0pt}{30pt}{12pt}
+
+\titleformat{\subsection}
+  {\color{nato}\LARGE\bfseries}{\thesubsection.}{1em}{}
+\titlespacing*{\subsection}{0pt}{20pt}{8pt}
+
+\titleformat{\subsubsection}
+  {\color{nato}\Large\bfseries}{\thesubsubsection.}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{10pt}{6pt}
+
+\fancyhf{}
+\fancyhead[R]{\small\color{footergray} 31 березня 2026}
+\fancyfoot[L]{\small\color{footergray} Технічні вимоги ЄСІКС. VII. Інтелектуальні сервіси}
+
+\fancyfoot[R]{\small\color{footergray}\thepage}
+
+\newcommand\HUGE[1]{\fontsize{40}{40}\selectfont #1}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footrule}{\color{footergray}\hrule width \textwidth height 0.4pt}
+
+\begin{document}
+
+\pagestyle{fancy}
+
+\begin{titlepage}
+  \AddToShipoutPictureBG*{\AtPageLowerLeft{\color{nato}\rule{\paperwidth}{\paperheight}}}
+  \color{white}\thispagestyle{empty}\vspace*{4cm}\centering
+  {\Huge  \textbf{Технічні вимоги ЄСІКС} \par} \vspace{2cm}
+  {\HUGE  \textbf{VII. Інтелектуальні сервіси} \par} \vspace{2.5cm}
+  {\LARGE \textbf{VII-1. Короткий зміст} \par}
+  {\LARGE \textbf{VII-2. Рекомендації} \par}
+  {\LARGE \textbf{VII-3. Практика} \par}
+  {\LARGE \textbf{VII-4. Адвокат} \par}
+  {\LARGE \textbf{VII-5. Сутності} \par} \vspace{2.5cm}
+  \vfill
+  {\large 2026 \copyright\ Інформаційні Судові Системи \par}
+\end{titlepage}
+
+\newpage
+
+\begin{center}
+  {\Huge\color{nato}\bfseries Зміст\par}
+\end{center}
+\vspace{40pt}
+\tableofcontents
+
+\begin{abstract}
+ТЕХНІЧНІ ВИМОГИ
+НА СТВОРЕННЯ ЗАСОБУ ІНФОРМАТИЗАЦІЇ - КОМПОНЕНТІВ “КЕРУВАННЯ ДОСТУПОМ”, БАЗОВИХ, БІЗНЕС СЕРВІСІВ ТА ІНФРАСТРУКТУРИ
+ЄДИНОЇ СУДОВОЇ ІНФОРМАЦІЙНО-КОМУНІКАЦІЙНОЇ СИСТЕМИ.
+\end{abstract}
+
+\newpage
+
+\section{Короткий зміст}
+
+\section{Рекомендації}
+
+\section{Практика}
+
+\section{Адвокат}
+
+\section{Сутності}
+
+\newpage
+\section*{Висновок}
+
+\begin{thebibliography}{9}
+
+\bibitem{ecoz:rehab} Міністерство охорони здоров’я України. \newblock Технічні вимоги Реабілітація 2.0. \newblock Версія 08.08.2024.
+\bibitem{dstu:3973} ДСТУ 3973-2000. \newblock Система розроблення та постачання продукції на виробництво. Правила виконання науково-дослідних робіт. Загальні положення.
+\bibitem{dstu:3974} ДСТУ 3974-2000. \newblock Система розроблення та постачання продукції на виробництво. Правила виконання науково-конструкторських робіт. Загальні положення.
+\bibitem{dstu:42010} ДСТУ 42010:2018. \newblock Інженерія систем і програмних засобів. Опис архітектури.
+\bibitem{law:info-protection} Закон України «Про захист інформації в інформаційно-телекомунікаційних системах».
+\bibitem{law:personal-data} Закон України «Про захист персональних даних».
+\bibitem{law:cybersecurity} Закон України «Про основні засади забезпечення кібербезпеки України».
+\bibitem{owasp:top10} OWASP Foundation. \newblock OWASP Top 10: The Ten Most Critical Web Application Security Risks. \newblock \url{https://owasp.org/www-project-top-ten/}.
+\bibitem{nist:sp800-57} NIST Special Publication 800-57 Part 1 Revision 5. \newblock Recommendation for Key Management.
+\bibitem{iso:42010} ISO/IEC/IEEE 42010:2022. \newblock Systems and software engineering — Architecture description.
+\bibitem{zachman} Zachman, J.A. \newblock A Framework for Information Systems Architecture. \newblock IBM Systems Journal, 1987.
+
+\end{thebibliography}
+
+\end{document}

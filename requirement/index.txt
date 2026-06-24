@@ -1,0 +1,93 @@
+ЄСІКС: Технічні вимоги
+
+ТОМ 1
+
+0. ПОЛІТИКИ
+
+I. Iнфраструктурнi сервiси
+I-1. Iнфраструктура безпеки (X.509, EUDI)
+I-2. Рольова модель i система доступiв (ABAC, IAM)
+I-3. Оркестрацiя процесiв (BPMN)
+I-4. Словникова пiдсистема (HL7)
+I-5. Мета сервiси схеми даних (SCHEMA)
+I-6. Конструктор форм i процесiв (X-FORMS)
+
+II. Господарська дiяльнiсть
+II-1. Бюджетне планування i контроль видаткiв (BUD)
+II-2. Фiнансовий i бухгалтерський облiк (FIN)
+II-3. Кадрова система (ACC)
+II-4. Публiчний документообiг i сервiсне обслуговування (CRM)
+
+III. Документообiг
+III-1. Шаблони документiв (DOCX, XLSX)
+III-2. Генерацiя документiв (PDF)
+III-3. Генерацiя бар- та штрих-кодiв (QR)
+III-4. Розпiзнавання Tesseract (OCR)
+III-5. Текстуально-голосовi трансформацiї (S2T, T2S)
+III-6. Редактор справ консилiуму (CRDT)
+
+IV. Реєстри
+IV-1. Виконавчi документи (EXEC)
+IV-2. Судовi рiшення (ORDER)
+IV-3. Правовi позицiї (POSITION)
+IV-4. Дайджести (DIGEST)
+IV-5. Фізичні особи (CITIZEN)
+IV-6. Адвокати (ESQ)
+IV-7. Уповноваженi (POA)
+IV-8. Кадри судової влади (JUDGE)
+IV-9. Суб’єкти господарювання (BIZ)
+IV-10. Зовнішні реєстри (TREMBITA)
+
+V. Судопис
+V-1. Справи (DEEDS)
+V-2. Провадження (PROSEC)
+V-3. Судовi засiдання i їх рiшення (COURT)
+V-4. Авторозподiл справ (AUTOCASE)
+V-5. Реєстрово-iнтеграцiйнi сервiси (CART)
+
+ТОМ 2
+
+VI. Суддiвство
+VI-1. Облiк суддiвських кадрiв (ACC)
+VI-2. Вiдбiр суддiв (FILTER)
+VI-3. Квалiфiкацiйне тестування (QUALIFY)
+VI-4. Досьє на суддю (PROFILE)
+VI-5. Верифiкацiя (VERIFY)
+
+VII. Iнтелектуальнi сервiси
+VII-1. Короткий змiст (EXCERPT)
+VII-2. Рекомендацiї (RECOMMEND)
+VII-3. Практика (PRACTICE)
+VII-4. Адвокат (ATTOURNEY)
+VII-5. Сутностi (ENTITIES)
+
+VIII. Бiзнес, аналiз i звiтнiсть
+VIII-1. Календарi та завдання (CAL, TASK)
+VIII-2. Платежi (PAYMENT)
+VIII-3. Архiв (ARCHIVE)
+VIII-4. Коментування (COMMENTS)
+VIII-5. Конференц-зв’язок (VKZ)
+VIII-6. Журнали (JOURNALS)
+
+IX. Інформаційно-пошукова система
+IX-1. Контент (CMS)
+IX-2. Форми (X-FORMS)
+IX-3. Iнтеграцiя (TREMBITA)
+IX-4. Звернення (CITIZENS)
+
+X. Кабінет
+X-1. Заяви (APP)
+X-2. Листи (LETTER)
+X-3. Звернення (REQ)
+X-4. Довіреності (POA)
+X-5. Виконавчі документи (EXEC)
+X-6. Провадження (PRO)
+X-7. Судові рішення (ADJ)
+
+X.509 EUDI ABAC IAM BPMN HL7 SCHEMA X-FORMS
+BUD FIN ACC CRM DOCX XLSX PDF QR OCR S2T T2S CRDT
+EXEC ORDER POSITION DIGER CITIZEN ESQ POS JUDGE BIZ TREMBITA
+DEEDS PROSEC COURT AUTOCASE CART
+JACC FILTER QUALIFY PROFILE VERRIFY
+EXCERPT RECCOMEND PRACTICE ATTOURNEY ENTITIES
+CAL TASK PAYMENT ARCHIVE COMMENTS VKZ JOURNALS CMS
